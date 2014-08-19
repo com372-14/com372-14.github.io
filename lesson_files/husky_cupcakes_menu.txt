@@ -1,0 +1,24 @@
+Husky Cupcakes
+
+Menu
+
+Traditional
+
+Chocolate 1.99
+Vanilla 1.99
+Red Velvet 2.50
+
+Filled
+
+Boston Creme 2.99
+Fudge 2.99
+Lemon Meringue 3.25
+
+Specialty
+
+Apple Pie 3.50
+Cherry Cheesecake 3.50
+Cinnamon Bun 3.00
+
+
+© 2014 Husky Cupcakes
