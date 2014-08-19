@@ -1,6 +1,6 @@
 # General Jekyll Config
 pygments: true
-url: http://dmd1070.github.io/
+url: http://com372-14.github.io/
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 markdown: redcarpet
@@ -14,21 +14,21 @@ theme:
 
   # Profile links on the left sidebar, leave blank to ignore
   social:
-    github: DMD1070
+    github: COM372-14
     #bitbucket: philipj
     #hacker_news: swanson
     #stackexchange: 348619
     #stackoverflow: 348619
-    twitter: adamdscott
+    twitter: kapipe
     #facebook: zuck
     #tumblr: animalygifs
     #linkedin: philipjagielski
     #gplus: 110552447039675960964
 
   # "Hi, I'm _______"
-  name: DMD1070
-  email: test@example.com
-  tagline: Fundamentals of Web Design
+  name: COM372-14
+  email: kpipe@sju.edu
+  tagline: Web Design and Development
 
   excerpt_separator: <!--more-->
 

@@ -3,21 +3,13 @@ layout: default
 title: About
 ---
 
-**DMD1070: Foundations of Web Design** is a course offered at the [University of Connecticut – Stamford](http://stamford.uconn.edu/) and taught by [Adam D. Scott](http://adamdscott.com/).
-
-## Contributing
-
-Contributions to the DMD1070 curriculum are welcomed in the form of both issues and pull requests.
-
-### Issues
-
-See ways the course could be improved? Are you a student who finds a particular topic confusing? Did I gloss over some of the material? [File an issue](https://github.com/DMD1070/DMD1070.github.io/issues)
-
-### Pull Requests
-
-Have really specific ideas for making the course better? Know a better resource? Found a spelling error? Want to help the design or accessibility of the site? File a pull request and help me make the class better.
+**COM372: Web Design and Development** is a course offered at [Saint Joseph's University](http://www.sju.edu/) and taught by [Kelly Anne Pipe](http://kapipe.com/).
 
 ## Credits
+
+This course website has been forked from [Adam Scott's](http://adamdscott.com/) [DMD1070: Foundations of Web Design](https://github.com/DMD1070/DMD1070.github.io).  Much of the curriculum and activities are taken from that course.
+
+The original syllabus for this course was developed by [Tim Lockridge](http://www.timlockridge.com/).
 
 There are other web design curriculums which this one is indebted to. They include:
 

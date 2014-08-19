@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Introduction to CSS</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+</head>
+<body>
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">&#60;COM372-14&#62;</span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-info-circle"></span> Syllabus</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Introduction to CSS</h1>
+
+  <div id="post">
+    <p class="lead">Cascading Style Sheets (CSS) allow us to add style such as colors, fonts, and layout to our pages. This lesson will be a review of the basic HTML covered in the last class and an introduction to CSS.</p>
+
+<h2 id="html-review-(together)">HTML Review (together)</h2>
+
+<p>Together, let&#39;s mark up the <a href="/lesson_files/husky_cupcakes.txt">Husky Cupcakes</a> page.</p>
+
+<h2 id="html-review-activity-(solo)">HTML Review Activity (solo)</h2>
+
+<p>Let&#39;s practice marking up a document <em>without</em> our text editor. I&#39;ve printed copies of this <a href="/lesson_files/love_supreme.pdf">Wikipedia excerpt</a>. Using a pen and paper, mark up this document as HTML. </p>
+
+<h2 id="what-is-css?">What is CSS?</h2>
+
+<p>Cascading Style Sheets, most of the time abbreviated as CSS, is a stylesheet language used to describe the presentation of a document written in HTML or XML (including various XML languages like SVG or XHTML). CSS describes how the structured element must be rendered on screen, on paper, in speech, or on other media.</p>
+
+<p>CSS is one of the core languages of the open web and has a standardized W3C specification. Developed in levels, CSS1 is now obsolete, CSS2.1 a recommendation and CSS3, now split into smaller modules, is progressing on the standard track.</p>
+
+<p>&quot;What is CSS&quot; is from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla&#39;s Developer Network Documentation</a></p>
+
+<h2 id="css-activity-(together)">CSS Activity (together)</h2>
+
+<p>We&#39;ll add some basic styles to our review HTML document we created earlier in class.</p>
+
+<p>To do so, create a new file called <code>style.css</code> and add the following to the <code>&lt;head&gt;</code> of your HTML page:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;style.css&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<p>CSS works by using <strong>selectors</strong> to select HTML content and apply styles to them. Look below and take a guess as the the result:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="nb">pink</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Together we will style the Husky Cupcakes page we created earlier.</p>
+
+<h2 id="common-css-properties">Common CSS Properties</h2>
+
+<p>Here is a list of some <a href="http://www.openbookproject.net/tutorials/getdown/css/resources/lesson1/css_properties.html">common CSS Properties</a> and Mozilla&#39;s Developer Network maintains a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">complete CSS reference</a> </p>
+
+<h2 id="css-activity-(solo)">CSS Activity (solo)</h2>
+
+<p>Use today&#39;s remaining class time to:</p>
+
+<ol>
+<li>Style the Long Wharf Pizza menu you created last class.</li>
+<li>Add a home page saved as <code>index.html</code></li>
+<li>Markup this <a href="(/lesson_files/pizza_index.txt)">index page text</a></li>
+<li>Add an image to the home page</li>
+<li>Add your stylesheet (the same one used for the menu) and add any necessary styles</li>
+<li>Link your two pages together</li>
+</ol>
+
+<h2 id="assignments">Assignments</h2>
+
+<p>All assignments are due prior to class next Tuesday.</p>
+
+<h3 id="reading">Reading</h3>
+
+<p>Read <a href="http://alistapart.com/article/dao/">The Dao of Web Design</a>. Though this article is 13 years old, it is still considered a &quot;classic&quot; of web design writing and is essential reading for any web designer.</p>
+
+<h3 id="blog-post">Blog Post</h3>
+
+<p>I&#39;d like you to blog your <strong>reaction</strong> to the Dao of Web Design. What did you think of the article? What are some of the key points that the author makes? Are they still relevant in 2014?</p>
+
+<p>Be sure to do the following:</p>
+
+<ul>
+<li>Be specific</li>
+<li>Cite examples (from your experience or sites you&#39;ve visited) to support your points</li>
+<li>Quote the original author when helpful</li>
+<li>Link to the original article</li>
+</ul>
+
+<p>Your blog post should be well thought out and be <strong>350 - 500 words</strong>.</p>
+
+<h3 id="codeacademy.com-lesson">Codeacademy.com lesson</h3>
+
+<p>Complete lessons <strong>#2 Build Your Own Web Page</strong> and <strong>#3 HTML Basics II</strong> in the <a href="http://www.codecademy.com/tracks/web">HTML &amp; CSS Track</a></p>
+
+  </div>
+</article>
+
+
+    <footer class="site-footer">
+      <p>All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </footer>
+  </div>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+<script>
+  $('.lesson').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

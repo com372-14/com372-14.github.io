@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Introduction to HTML</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+</head>
+<body>
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">&#60;COM372-14&#62;</span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-info-circle"></span> Syllabus</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Introduction to HTML</h1>
+
+  <div id="post">
+    <p class="lead">Hypertext Markup Language (HTML) is the basis of every page on the web. HTML provides the meaning and structure to our pages.</p>
+
+<h2 id="what-is-html?">What is HTML?</h2>
+
+<p>HTML is a markup language. It tells the web browser what content to display. HTML separates &quot;content&quot; (words, images, audio, video, and so on) from &quot;presentation&quot; (the definition of the type of content and the instructions for how that type of content should be displayed). HTML uses a pre-defined set of elements to identify content types. Elements contain one or more &quot;tags&quot; that contain or express content. Tags are surrounded by angle brackets, and the &quot;closing&quot; tag (the one that indicates the end of the content) is prefixed by a forward slash.</p>
+
+<p>For example, the paragraph element consists of the start tag <code>&lt;p&gt;</code> and the closing tag <code>&lt;/p&gt;</code>. The following example shows a paragraph contained within the HTML paragraph element:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>You are beginning to learn HTML.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
+<p>When this content is displayed in a web browser, it looks like this:</p>
+
+<p>You are beginning to learn HTML.</p>
+
+<p>The browser uses the tags as an indicator of how to display the content in the tags.</p>
+
+<p>Elements that contain content can usually also contain other elements. For example, the emphasis element (<code>&lt;em&gt;</code>) can be embedded within a paragraph element, to add emphasis to a word or phrase:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>You are <span class="nt">&lt;em&gt;</span>beginning <span class="nt">&lt;/em&gt;</span> to learn HTML.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
+<p>When displayed, this looks like:</p>
+
+<p>You are <em>beginning</em> to learn HTML.</p>
+
+<p>Some elements do not contain other elements. For example, the image tag (&quot;<img>&quot;) specifies the file name of the content (an image) as an attribute:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;smileyface.jpg&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<p>&quot;What is HTML&quot; is from Mozilla Developer Networks&#39; <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">Introduction to HTML</a></p>
+
+<h2 id="common-html-terms">Common HTML terms</h2>
+
+<ul>
+<li><strong>Elements:</strong> Elements define the semantic meaning of their content. Elements include everything between two matching element tags, including the tags themselves. For example, the &quot;<p>&quot; element indicates a paragraph; the &quot;<img>&quot; element indicates an image.</li>
+<li><strong>Tags:</strong> HTML documents are written in plain text. They can be written in any text editor that allows content to be saved as plain text, such as Notepad, Notepad++, or Sublime,  but most HTML authors prefer to use a specialized editor that highlights syntax and shows the DOM. Tag names may be written in either upper or lower case. However, the W3C (the global consortium that maintains the HTML standard) recommends using lower case.</li>
+<li><strong>Attributes:</strong> The tag may contain additional information and Such information is called an attribute. Tags such as <code>&lt;img&gt;</code> and <code>&lt;a&gt;</code> use attributes. Attributes usually consist of 2 parts:
+
+<ul>
+<li>An attribute name (such as <code>src</code> or <code>href</code>)</li>
+<li>An attribute value (such as <code>doge.jpg</code> or <code>link.html</code>)</li>
+</ul></li>
+<li><strong>Doctype:</strong> In addition to tags, text content, and entities, an HTML document must contain a doctype declaration as the first line. The doctype declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.</li>
+</ul>
+
+<p>Adapted from Mozilla Developer Networks&#39; <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">Introduction to HTML</a></p>
+
+<h2 id="creating-our-first-web-pages">Creating our first web pages</h2>
+
+<iframe src="//slid.es/ascott1/introductiontohtml/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h2 id="common-html-tags">Common HTML Tags</h2>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a paragraph<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;h1&gt;</span>Heading Level 1<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>Heading Level 2<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>Heading Level 3<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;h4&gt;</span>Heading Level 4<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;h5&gt;</span>Heading Level 5<span class="nt">&lt;/h5&gt;</span>
+<span class="nt">&lt;h6&gt;</span>Heading Level 6<span class="nt">&lt;/h6&gt;</span>
+
+<span class="nt">&lt;em&gt;</span>Emphasis, aka italics<span class="nt">&lt;/em&gt;</span>
+<span class="nt">&lt;strong&gt;</span>Strong, aka bold<span class="nt">&lt;/strong&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Unordered list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Unordered list item 2<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Unordered list item 3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Ordered list item 1<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Ordered list item 2<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Ordered list item 3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://dmd1070.github.io/&quot;</span><span class="nt">&gt;</span>This is a link<span class="nt">&lt;/a&gt;</span>
+
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;pizza.jpg&quot;</span><span class="nt">&gt;</span>
+
+<span class="c">&lt;!-- This is a comment. Anything put here will not appear on the page --&gt;</span>
+</code></pre></div>
+<p>For a full list of HTML tags, check out the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+
+<h2 id="starter-html-template">Starter HTML Template</h2>
+
+<p>A very basic HTML page:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>PAGE TITLE<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- DON&#39;T FORGET THE TITLE --&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  <span class="c">&lt;!-- PLACE ALL OF YOUR PAGE CONTENT BELOW HERE --&gt;</span>
+
+  <span class="nt">&lt;h1&gt;</span>This is my heading<span class="nt">&lt;/h1&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>This is a paragraph<span class="nt">&lt;/p&gt;</span> 
+
+  <span class="c">&lt;!-- AND ABOVE HERE --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+<p><strong><a href="https://github.com/DMD1070/html-template">Our starter HTML template is available to download on Github</a>.</strong></p>
+
+<h2 id="activity:-menu-markup">Activity: Menu Markup</h2>
+
+<p>Here is the plain text of a pizza menu: <a href="/lesson_files/long_wharf_pizza.txt">Long Wharf Pizza Menu</a></p>
+
+<p>To practice our HTML chops, mark it up as a <a href="http://validator.w3.org/">valid</a> HTML file.</p>
+
+  </div>
+</article>
+
+
+    <footer class="site-footer">
+      <p>All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </footer>
+  </div>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+<script>
+  $('.lesson').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

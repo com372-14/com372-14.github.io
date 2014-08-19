@@ -140,6 +140,7 @@ table {
   border-spacing: 0;
   empty-cells: show;
   border: 1px solid #cbcbcb;
+  font-size: 14px;
 }
 
 thead {
@@ -157,6 +158,7 @@ th {
   margin: 0;
   overflow: visible;
   padding: 0.5em 1em;
+  vertical-align: top;
 }
 
 td:first-child,
