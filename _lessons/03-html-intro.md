@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Introduction to HTML
-lesson_num: 03
+lesson_num: '03'
+class_date: August 27, 2014
+lead: Hypertext Markup Language (HTML) is the basis of every page on the web. HTML provides the meaning and structure to our pages.
 ---
-
-<p class="lead">Hypertext Markup Language (HTML) is the basis of every page on the web. HTML provides the meaning and structure to our pages.</p>
 
 ## What is HTML?
 

@@ -37,3 +37,7 @@ theme:
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: false
+
+collections:
+  lessons:
+    output: true

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Getting Ready to Code + The Simplest Webpage</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+</head>
+<body>
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">&#60;COM372-14&#62;</span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-info-circle"></span> Syllabus</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Getting Ready to Code + The Simplest Webpage</h1>
+  <div id="post">
+  <p class="lead">In this lesson we will learn about how to set up your computer for web design, understanding the File System, and get set up with GitHub, the system we will use for submitting our work.</p>
+    <!--more-->
+
+<h2 id="due-today">Due Today</h2>
+
+<ul>
+<li><strong>Bring your computer.</strong>  Make sure you installed <strong>Google Chrome</strong> on it.</li>
+<li><strong>Sign up for <a href="https://github.com/join">GitHub</a></strong>.  Create a free account.</li>
+<li>**Install <a href="https://mac.github.com/">GitHub for Mac</a> or <a href="https://windows.github.com/">GitHub for Windows</a> on your machine.</li></li>
+</ul>
+
+<h2 id="history-of-the-web">History of the Web</h2>
+
+<ul>
+<li>Do you think Tim Berner-Lee&#39;s vision of the web has held true?</li>
+</ul>
+
+<h2 id="web-standards">Web Standards</h2>
+
+<ul>
+<li>As we progress through this class, I will be referring to web standards.</li>
+<li>Web standards were introduced as a response to the &quot;Browser Wars&quot; of the 1990s</li>
+<li><a href="http://www.sitepoint.com/importance-web-standards/">Why are they important?</a>
+
+<ul>
+<li>Achieve a More Stable Web</li>
+<li>Reduce Development and Maintenance Time</li>
+<li>Allow Backward Compatibility and Validation</li>
+<li>Increase Search Engine Success</li>
+<li>Graceful Degradation Now, and in the Future</li>
+<li>Common Knowledge</li>
+</ul></li>
+<li><a href="http://movethewebforward.org/">Move the Web Forward</a></li>
+<li><a href="http://www.webstandards.org/learn/">Web Standards Project</a></li>
+<li><a href="http://www.w3.org/standards/">W3C Standards</a></li>
+</ul>
+
+<h2 id="things-that-are-not-standards-compliant-(if-you-see-a-tutorial-that-tells-you-to-do-one-of-these-things,-run-away!)">Things that are NOT standards compliant (if you see a tutorial that tells you to do one of these things, run away!)</h2>
+
+<ul>
+<li>using tables to lay out pages (<a href="http://www.ironspider.ca/webdesign102/tables4layout2.htm">example</a>)
+
+<ul>
+<li><a href="http://phrogz.net/css/WhyTablesAreBadForLayout.html">Why are tables bad for layout?</a></li>
+</ul></li>
+<li>using frames (<a href="http://users.ipa.net/%7Edjhill/frmain.html">example</a>)
+
+<ul>
+<li><a href="http://www.nngroup.com/articles/why-frames-suck-most-of-the-time/">why frames suck most of the time</a></li>
+</ul></li>
+<li>using invisible gifs as spacers
+
+<ul>
+<li><a href="http://www.stemkoski.com/a-nostalgic-look-at-pixel-gif-spacers/">a nostaglic look at pixel gif spacers</a></li>
+</ul></li>
+<li>save as HTML from a word processor (like Microsoft Word)
+
+<ul>
+<li><a href="http://cms.about.com/od/maintain-your-cms-website/a/Posting-Content-Do-Not-Compose-In-A-Word-Processor.htm">Posting Content: Don&#39;t Compose in a Word Processor!</a></li>
+</ul></li>
+<li>create websites using Adobe Flash (<a href="http://www.continentalmidtown.com/">example</a>)
+
+<ul>
+<li><a href="http://www.smashingmagazine.com/2010/04/12/the-gradual-disappearance-of-flash-websites/">The Gradual Disappearance Of Flash Websites</a></li>
+</ul></li>
+</ul>
+
+<h2 id="your-filesystem">Your filesystem</h2>
+
+<ul>
+    <li>You may be used to thinking of your computer as a series of applications, plus your media and files.</li>
+    <li>Depending on how organized you are, you may be used to the concept of organizing your files into different folders.  On your OS, you probably have special folders already created: <b>Pictures, My Documents, </b>and so-on.</li>
+    <li>We are going to organize everything you work on in this class into a folder in your computer.  I recommend setting up a folder in your home directory called <strong>Sites</strong>.  You may find this folder is already created - if so, great!  If not, create it now.</li>
+</ul>
+
+<h2 id="version-control-and-you">Version Control and You</h2></h2>
+
+<ul>
+<li><a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1">GitHub For Beginners: Don&#39;t Get Scared, Get Started</a></li>
+<li>What is Github?</li>
+<li>We will create our first repository and name it &quot;project01&quot;</li>
+<li>We will create a branch in this repository and name it &quot;gh-pages&quot;.  This is a special branch that will tell GitHub that you want to create a web page using this branch.  (read more at <a href="https://pages.github.com/">GitHub Pages</a>)</li>
+<li>We will clone our repository to our computers</li>
+</ul>
+
+<h2 id="your-first-web-page">Your First Web Page</h2>
+
+<ul>
+    <li>Open a text editor on your computer (TextEdit or Notepad).</li>
+    <li>If you are using TextEdit, you will need to change the format to "Plain Text".
+<ul>
+    <li>Open the Format tab</li>
+    <li>Choose "Make Plain Text"</li>
+    <li>You can also hit Shift-Apple-T to switch to plain text</li>
+</ul>
+
+<p></li>
+    <li>Copy and paste basic web page from <a href="https://gist.github.com/kapipe/9250113d9d2533e723c4">this gist</a>.</li>
+    <li>Save as index.html.  Be sure to choose the file format as &quot;Web Page&quot;.  Save the file in your new project folder (my-first-repo).
+<ul>
+    <li>Go to the File menu</li>
+    <li>Choose Save As... (or Shift-Apple-S)</li>
+    <li>Change the file extension from .txt to .html</li>
+    <li>A popup will ask you if you want to append the extension &quot;.txt&quot; to the end. Choose &quot;Don&#39;t Append&quot;</li>
+</ul>
+</li>
+    <li>Right click, and open in Chrome.</li>
+</ul>
+<h2>Push Your First Web Page to GitHub</h2>
+<ul>
+    <li>You have made a change to your code, so you should commit it to your repository.</li>
+    <li>You should give each commit a summary, and an optional description</li>
+    <li>Commit your change, and then sync to your repository.</li>
+    <li>This <strong>added</strong> your index.html file to your github repository.  Log into <a href="http://www.github.com/YOURNAME/REPONAME">http://www.github.com/YOURNAME/REPONAME</a> to see your repository.</li>
+</ul></p>
+
+<h2 id="assignments">Assignments</h2>
+
+<h3 id="1.-read">1. Read</h3>
+
+<p>Read Robbins, 3-32</p>
+
+  </div>
+</article>
+
+
+    <footer class="site-footer">
+      <p>All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </footer>
+  </div>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+<script>
+  $('.lesson').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

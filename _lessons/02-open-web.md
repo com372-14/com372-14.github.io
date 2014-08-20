@@ -1,0 +1,97 @@
+---
+layout: post
+title: Getting Ready to Code + The Simplest Webpage
+lesson_num: '02'
+class_date: August 27, 2014
+lead: In this lesson we will learn about how to set up your computer for web design, understanding the File System, and get set up with GitHub, the system we will use for submitting our work.
+---
+
+<!--more-->
+
+## Due Today
+
+- **Bring your computer.**  Make sure you installed **Google Chrome** on it.
+- **Sign up for [GitHub](https://github.com/join)**.  Create a free account.
+- **Install [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/) on your machine.</li>
+
+## History of the Web
+
+- Do you think Tim Berner-Lee's vision of the web has held true?
+
+## Web Standards
+
+- As we progress through this class, I will be referring to web standards.
+- Web standards were introduced as a response to the "Browser Wars" of the 1990s
+- [Why are they important?](http://www.sitepoint.com/importance-web-standards/)
+  - Achieve a More Stable Web
+  - Reduce Development and Maintenance Time
+  - Allow Backward Compatibility and Validation
+  - Increase Search Engine Success
+  - Graceful Degradation Now, and in the Future
+  - Common Knowledge
+- [Move the Web Forward](http://movethewebforward.org/)
+- [Web Standards Project](http://www.webstandards.org/learn/)
+- [W3C Standards](http://www.w3.org/standards/)
+
+## Things that are NOT standards compliant (if you see a tutorial that tells you to do one of these things, run away!)
+- using tables to lay out pages ([example](http://www.ironspider.ca/webdesign102/tables4layout2.htm))
+  - [Why are tables bad for layout?](http://phrogz.net/css/WhyTablesAreBadForLayout.html)
+- using frames ([example](http://users.ipa.net/~djhill/frmain.html))
+  - [why frames suck most of the time](http://www.nngroup.com/articles/why-frames-suck-most-of-the-time/)
+- using invisible gifs as spacers
+  - [a nostaglic look at pixel gif spacers](http://www.stemkoski.com/a-nostalgic-look-at-pixel-gif-spacers/)
+- save as HTML from a word processor (like Microsoft Word)
+  - [Posting Content: Don't Compose in a Word Processor!](http://cms.about.com/od/maintain-your-cms-website/a/Posting-Content-Do-Not-Compose-In-A-Word-Processor.htm)
+- create websites using Adobe Flash ([example](http://www.continentalmidtown.com/))
+  - [The Gradual Disappearance Of Flash Websites](http://www.smashingmagazine.com/2010/04/12/the-gradual-disappearance-of-flash-websites/)
+
+## Your filesystem
+<ul>
+	<li>You may be used to thinking of your computer as a series of applications, plus your media and files.</li>
+	<li>Depending on how organized you are, you may be used to the concept of organizing your files into different folders.  On your OS, you probably have special folders already created: <b>Pictures, My Documents, </b>and so-on.</li>
+	<li>We are going to organize everything you work on in this class into a folder in your computer.  I recommend setting up a folder in your home directory called <strong>Sites</strong>.  You may find this folder is already created - if so, great!  If not, create it now.</li>
+</ul>
+
+## Version Control and You</h2>
+
+- [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+- What is Github?
+- We will create our first repository and name it "project01"
+- We will create a branch in this repository and name it "gh-pages".  This is a special branch that will tell GitHub that you want to create a web page using this branch.  (read more at [GitHub Pages](https://pages.github.com/))
+- We will clone our repository to our computers
+
+
+## Your First Web Page
+<ul>
+	<li>Open a text editor on your computer (TextEdit or Notepad).</li>
+	<li>If you are using TextEdit, you will need to change the format to "Plain Text".
+<ul>
+	<li>Open the Format tab</li>
+	<li>Choose "Make Plain Text"</li>
+	<li>You can also hit Shift-Apple-T to switch to plain text</li>
+</ul>
+</li>
+	<li>Copy and paste basic web page from [this gist](https://gist.github.com/kapipe/9250113d9d2533e723c4).</li>
+	<li>Save as index.html.  Be sure to choose the file format as "Web Page".  Save the file in your new project folder (my-first-repo).
+<ul>
+	<li>Go to the File menu</li>
+	<li>Choose Save As... (or Shift-Apple-S)</li>
+	<li>Change the file extension from .txt to .html</li>
+	<li>A popup will ask you if you want to append the extension ".txt" to the end. Choose "Don't Append"</li>
+</ul>
+</li>
+	<li>Right click, and open in Chrome.</li>
+</ul>
+<h2>Push Your First Web Page to GitHub</h2>
+<ul>
+	<li>You have made a change to your code, so you should commit it to your repository.</li>
+	<li>You should give each commit a summary, and an optional description</li>
+	<li>Commit your change, and then sync to your repository.</li>
+	<li>This <strong>added</strong> your index.html file to your github repository.  Log into http://www.github.com/YOURNAME/REPONAME to see your repository.</li>
+</ul>
+
+## Assignments
+
+### 1. Read
+
+Read Robbins, 3-32

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Hello World
-lesson_num: 01
+lesson_num: '01'
 class_date: August 25, 2014
+lead: Welcome to COM372, Web Design and Development. This course is designed to guide you through the process of planning, designing, and implementing your first website. In this lesson we'll gain our bearings by understanding a bit about the history of the web and how the web works.
 ---
 
-<p class="lead">Welcome to DMD1070, Foundations of Web Design. This course is designed to guide you through the process of planning, designing, and implementing your first website. In this lesson we'll gain our bearings by understanding a bit about the history of the web and how the web works.</p>
+<p class="lead">{{ post.lead }}</p>
 
 <!--more-->
 
