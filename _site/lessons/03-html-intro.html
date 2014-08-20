@@ -33,6 +33,7 @@
   <div class="container">
     <article class="lesson">
   <h1 class="title">Introduction to HTML</h1>
+  <p class="date">Lesson Number 03, August 29, 2014</p>
   <div id="post">
   <p class="lead">Hypertext Markup Language (HTML) is the basis of every page on the web. HTML provides the meaning and structure to our pages.</p>
     <h2 id="what-is-html?">What is HTML?</h2>
@@ -49,7 +50,7 @@
 <p>The browser uses the tags as an indicator of how to display the content in the tags.</p>
 
 <p>Elements that contain content can usually also contain other elements. For example, the emphasis element (<code>&lt;em&gt;</code>) can be embedded within a paragraph element, to add emphasis to a word or phrase:</p>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>You are <span class="nt">&lt;em&gt;</span>beginning <span class="nt">&lt;/em&gt;</span> to learn HTML.<span class="nt">&lt;/p&gt;</span>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>You are <span class="nt">&lt;em&gt;</span>beginning<span class="nt">&lt;/em&gt;</span> to learn HTML.<span class="nt">&lt;/p&gt;</span>
 </code></pre></div>
 <p>When displayed, this looks like:</p>
 
@@ -62,19 +63,59 @@
 
 <h2 id="common-html-terms">Common HTML terms</h2>
 
-<ul>
-<li><strong>Elements:</strong> Elements define the semantic meaning of their content. Elements include everything between two matching element tags, including the tags themselves. For example, the &quot;<p>&quot; element indicates a paragraph; the &quot;<img>&quot; element indicates an image.</li>
-<li><strong>Tags:</strong> HTML documents are written in plain text. They can be written in any text editor that allows content to be saved as plain text, such as Notepad, Notepad++, or Sublime,  but most HTML authors prefer to use a specialized editor that highlights syntax and shows the DOM. Tag names may be written in either upper or lower case. However, the W3C (the global consortium that maintains the HTML standard) recommends using lower case.</li>
-<li><strong>Attributes:</strong> The tag may contain additional information and Such information is called an attribute. Tags such as <code>&lt;img&gt;</code> and <code>&lt;a&gt;</code> use attributes. Attributes usually consist of 2 parts:
+<h3 id="elements">Elements</h3>
+
+<p>Elements define the semantic meaning of their content. Elements include everything between two matching element tags, including the tags themselves. For example, the <code>&lt;p&gt;</code> element indicates a paragraph; the <code>&lt;img&gt;</code> element indicates an image.</p>
+
+<p>The following is a paragraph element:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>
+This is the content of the paragraph element.
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
+<h3 id="tags">Tags</h3>
+
+<p>Tags are used to mark up the start and end of an HTML element.</p>
+
+<p>A start tag consists of an opening angle bracket (&lt;) followed by the element name, zero or more space separated attribute/value pairs, and a closing angle bracket (&gt;).</p>
+
+<p>A start tag with no attributes:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;p&gt;</span>
+</code></pre></div>
+<p>A start tag with an attribute:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;info&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<p>End tags consist of an opening angle bracket followed by a forward slash, the element name, and a closing angle bracket:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
+<p><strong>Void elements</strong> are empty, meaning that they only consist of a single tag and do not have any content. In HTML, such tags look just like opening tags:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;br&gt;</span>
+</code></pre></div>
+<p>Void elements (tags that do not need to be closed) can also contain attributes.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;smile.jpg&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<p>Depending on what type of HTML you are writing, you may find that your code will not validate without properly closing all tags, including void tags.  This is typically the case if you are writing XHTML.  The appropriate way to close a void tag is to add a closing slash before the end of the tag.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html">  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;smile.jpg&quot;</span> <span class="nt">/&gt;</span>
+</code></pre></div>
+<p><strong>Extra reading</strong> <a href="http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html">To Close or Not to Close</a></p>
+
+<p>In this course, I will not deduct points if you choose to close your void tags (using the appropriate syntax, as demonstarted above).  Please just be consistent.</p>
+
+<h3 id="attributes">Attributes</h3>
+
+<p>The tag may contain additional information and such information is called an attribute. Tags such as <code>&lt;img&gt;</code> and <code>&lt;a&gt;</code> use attributes. Attributes usually consist of 2 parts:</p>
 
 <ul>
 <li>An attribute name (such as <code>src</code> or <code>href</code>)</li>
 <li>An attribute value (such as <code>doge.jpg</code> or <code>link.html</code>)</li>
-</ul></li>
-<li><strong>Doctype:</strong> In addition to tags, text content, and entities, an HTML document must contain a doctype declaration as the first line. The doctype declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.</li>
 </ul>
 
+<h3 id="doctype">Doctype</h3>
+
+<p>In addition to tags, text content, and entities, an HTML document must contain a doctype declaration as the first line. The doctype declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.</p>
+
 <p>Adapted from Mozilla Developer Networks&#39; <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">Introduction to HTML</a></p>
+
+<p>HTML documents are written in plain text. They can be written in any text editor that allows content to be saved as plain text, such as Notepad, Notepad++, or Sublime,  but most HTML authors prefer to use a specialized editor that highlights syntax and shows the DOM. </p>
 
 <h2 id="creating-our-first-web-pages">Creating our first web pages</h2>
 
@@ -140,6 +181,21 @@
 <p>Here is the plain text of a pizza menu: <a href="/lesson_files/long_wharf_pizza.txt">Long Wharf Pizza Menu</a></p>
 
 <p>To practice our HTML chops, mark it up as a <a href="http://validator.w3.org/">valid</a> HTML file.</p>
+
+<h2 id="homework">Homework</h2>
+
+<h3 id="read">Read</h3>
+
+<p><a href="http://alistapart.com/article/a-brief-history-of-markup">A Brief History of Markup</a></p>
+
+<h3 id="codeacademy-(due-9/3/2014)">Codeacademy (due 9/3/2014)</h3>
+
+<ol>
+<li>Sign up for an account at <a href="http://www.codecademy.com/">codeacademy.com</a>.</li>
+<li>Select the <a href="http://www.codecademy.com/tracks/web">Web Fundamentals</a> track.</li>
+<li>Complete lesson 1 HTML Basics (<strong>note: there are 13 steps to this lesson</strong>).</li>
+<li>To verify you have completed this lesson <a href="http://www.take-a-screenshot.org/">take a screenshot</a> of  page that clearly shows you have completed the lesson and email it to me (<a href="mailto:kpipe@sju.edu">kpipe@sju.edu</a>).</li>
+</ol>
 
   </div>
 </article>

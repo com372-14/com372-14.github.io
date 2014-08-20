@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to HTML
 lesson_num: '03'
-class_date: August 27, 2014
+class_date: August 29, 2014
 lead: Hypertext Markup Language (HTML) is the basis of every page on the web. HTML provides the meaning and structure to our pages.
 ---
 
@@ -25,7 +25,7 @@ The browser uses the tags as an indicator of how to display the content in the t
 Elements that contain content can usually also contain other elements. For example, the emphasis element (`<em>`) can be embedded within a paragraph element, to add emphasis to a word or phrase:
 
 ```html
-<p>You are <em>beginning </em> to learn HTML.</p>
+<p>You are <em>beginning</em> to learn HTML.</p>
 ```
 
 When displayed, this looks like:
@@ -42,14 +42,79 @@ Some elements do not contain other elements. For example, the image tag ("<img>"
 
 ## Common HTML terms
 
-- **Elements:** Elements define the semantic meaning of their content. Elements include everything between two matching element tags, including the tags themselves. For example, the "<p>" element indicates a paragraph; the "<img>" element indicates an image.
-- **Tags:** HTML documents are written in plain text. They can be written in any text editor that allows content to be saved as plain text, such as Notepad, Notepad++, or Sublime,  but most HTML authors prefer to use a specialized editor that highlights syntax and shows the DOM. Tag names may be written in either upper or lower case. However, the W3C (the global consortium that maintains the HTML standard) recommends using lower case.
-- **Attributes:** The tag may contain additional information and Such information is called an attribute. Tags such as `<img>` and `<a>` use attributes. Attributes usually consist of 2 parts:
-    - An attribute name (such as `src` or `href`)
-    - An attribute value (such as `doge.jpg` or `link.html`)
-- **Doctype:** In addition to tags, text content, and entities, an HTML document must contain a doctype declaration as the first line. The doctype declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+### Elements 
+
+Elements define the semantic meaning of their content. Elements include everything between two matching element tags, including the tags themselves. For example, the ```<p>``` element indicates a paragraph; the ```<img>``` element indicates an image.
+
+The following is a paragraph element:
+
+```html
+<p>
+This is the content of the paragraph element.
+</p>
+```
+
+### Tags 
+
+Tags are used to mark up the start and end of an HTML element.
+
+  A start tag consists of an opening angle bracket (<) followed by the element name, zero or more space separated attribute/value pairs, and a closing angle bracket (>).
+  
+  A start tag with no attributes:
+  
+  ```html
+  <p>
+  ```
+  
+  A start tag with an attribute:
+  
+  ```html
+  <p class="info">
+  ```
+  
+  End tags consist of an opening angle bracket followed by a forward slash, the element name, and a closing angle bracket:
+  
+  ```html
+  </p>
+  ```
+  
+  **Void elements** are empty, meaning that they only consist of a single tag and do not have any content. In HTML, such tags look just like opening tags:
+  
+  ```html
+  <br>
+  ```
+  
+  Void elements (tags that do not need to be closed) can also contain attributes.
+  
+  ```html
+  <img src="smile.jpg">
+  ```
+
+  Depending on what type of HTML you are writing, you may find that your code will not validate without properly closing all tags, including void tags.  This is typically the case if you are writing XHTML.  The appropriate way to close a void tag is to add a closing slash before the end of the tag.
+  
+  ```html
+  <img src="smile.jpg" />
+  ```
+  
+  **Extra reading** [To Close or Not to Close](http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html)
+  
+  In this course, I will not deduct points if you choose to close your void tags (using the appropriate syntax, as demonstarted above).  Please just be consistent.
+  
+  
+### Attributes
+
+The tag may contain additional information and such information is called an attribute. Tags such as `<img>` and `<a>` use attributes. Attributes usually consist of 2 parts:
+
+- An attribute name (such as `src` or `href`)
+- An attribute value (such as `doge.jpg` or `link.html`)
+
+### Doctype
+In addition to tags, text content, and entities, an HTML document must contain a doctype declaration as the first line. The doctype declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
 
 Adapted from Mozilla Developer Networks' [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+
+
+HTML documents are written in plain text. They can be written in any text editor that allows content to be saved as plain text, such as Notepad, Notepad++, or Sublime,  but most HTML authors prefer to use a specialized editor that highlights syntax and shows the DOM. 
 
 ## Creating our first web pages
 
@@ -121,3 +186,16 @@ A very basic HTML page:
 Here is the plain text of a pizza menu: [Long Wharf Pizza Menu](/lesson_files/long_wharf_pizza.txt)
 
 To practice our HTML chops, mark it up as a [valid](http://validator.w3.org/) HTML file.
+
+## Homework
+
+### Read
+
+[A Brief History of Markup](http://alistapart.com/article/a-brief-history-of-markup)
+
+### Codeacademy (due 9/3/2014)
+1. Sign up for an account at [codeacademy.com](http://www.codecademy.com/).
+2. Select the [Web Fundamentals](http://www.codecademy.com/tracks/web) track.
+3. Complete lesson 1 HTML Basics (**note: there are 13 steps to this lesson**).
+4. To verify you have completed this lesson [take a screenshot](http://www.take-a-screenshot.org/) of  page that clearly shows you have completed the lesson and email it to me ([kpipe@sju.edu](mailto:kpipe@sju.edu)).
+
