@@ -1,5 +1,5 @@
 # General Jekyll Config
-pygments: true
+highlighter: pygments
 url: http://com372-14.github.io/
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
@@ -40,4 +40,6 @@ theme:
 
 collections:
   lessons:
+    output: true
+  projects:
     output: true
