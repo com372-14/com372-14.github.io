@@ -199,3 +199,8 @@ To practice our HTML chops, mark it up as a [valid](http://validator.w3.org/) HT
 3. Complete lesson 1 HTML Basics (**note: there are 13 steps to this lesson**).
 4. To verify you have completed this lesson [take a screenshot](http://www.take-a-screenshot.org/) of  page that clearly shows you have completed the lesson and email it to me ([kpipe@sju.edu](mailto:kpipe@sju.edu)).
 
+### Project 1 - Using HTML to Structure Text (due 9/3/2014)
+
+1. Complete Project 1.  The instructions are in the project page.
+2. As the course moves on, we will add project information to our *Project Portfolio*.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.
+

@@ -74,12 +74,10 @@ Write a paragraph for each of these questions.  Save it as a text document, and 
 
 ### 3. Get Your Computer (and set it up)
 
-<ul>
-	<li><strong>Bring your computer</strong> to the next class.</li>
-	<li><strong>Install Google Chrome </strong>on your computer</li>
-	<li><strong>Sign up for <a href="https://github.com/join">GitHub</a>.</strong>  Create a free account.</li>
-	<li><strong>Install</strong> <a href="https://mac.github.com/">GitHub for Mac</a> or <a href="https://windows.github.com/">GitHub for Windows</a>.</li>
-</ul>
+- **Bring your computer** to the next class.
+- **Install Google Chrome **on your computer
+- **Sign up for [GitHub](https://github.com/join).**  Create a free account.
+- **Install** [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/).
 
 ### 4. Buy the Books
 <li><strong>Buy the books.</strong>  Chapters 1 and 2 of Robbins are due for Friday.</li>

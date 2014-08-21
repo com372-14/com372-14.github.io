@@ -17,15 +17,16 @@ The websites you choose to critique should not be Flash-heavy, search engines (l
 ### Critique Requirements
 
 The critique of the websites should include the following information:
-1) Name of the website
-2) URL of the website (this should link to the website)
-3) What is the subject of the site?
-4) Content: Is the content relevant to the subject of the site? Too much or not enough content?
-5) Navigation: Is it easy to get from one page to another, or one section to another? Does the navigation remain consistent and it is easy to use?
-6) Information Architecture: Was certain information where you thought it would be? Or, were you clicking all over the place to find what you were looking for?
-7) Visual Design: Do the aesthetic decisions help or hinder the site’s working abilities, not does it look good?
-8) Overall Functionality: Does the site work? Can you find what you are looking for, do what you want to do, and does it simply technically work?
-9) Overall Experience: Did you get what you wanted from the site?
+
+1. Name of the website
+2. URL of the website (this should link to the website)
+3. What is the subject of the site?
+4. Content: Is the content relevant to the subject of the site? Too much or not enough content?
+5. Navigation: Is it easy to get from one page to another, or one section to another? Does the navigation remain consistent and it is easy to use?
+6. Information Architecture: Was certain information where you thought it would be? Or, were you clicking all over the place to find what you were looking for?
+7. Visual Design: Do the aesthetic decisions help or hinder the site’s working abilities, not does it look good?
+8. Overall Functionality: Does the site work? Can you find what you are looking for, do what you want to do, and does it simply technically work?
+9. Overall Experience: Did you get what you wanted from the site?
 
 ### Technical Stuff:
 
