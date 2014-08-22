@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Web Typography</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">&#60;COM372-14&#62;</span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/syllabus"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Web Typography</h1>
+  <p class="date">Lesson Number 7, </p>
+  <div id="post">
+  <p class="lead"></p>
+    <p class="lead">Some would argue that <a href="http://ia.net/blog/the-web-is-all-about-typography-period/">Web Design is 95% Typography</a>. Carefully considering the type of our website will greatly improve the design of our site as well as making it easier for our users to read and scan for information.</p>
+
+<h2 id="typography-overview">Typography Overview</h2>
+
+<h3 id="the-history-of-typography-–-animated-short">The History of Typography – Animated Short</h3>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/wOgIkxAfJsk" frameborder="0" allowfullscreen></iframe>
+
+<h3 id="typography-|-off-book">Typography | Off Book</h3>
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/eKKDL6lekmA" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="exploring-typography-activity">Exploring Typography Activity</h2>
+
+<h3 id="part-1">Part 1</h3>
+
+<p>Type is <a href="http://www.flickr.com/groups/found-typography/">all around us</a>. Take the next hour to explore the typography of the campus/surrounding area. Take photos of type that you find interesting and be sure to photograph <strong>all 26 letters of the alphabet.</strong></p>
+
+<h3 id="part-2">Part 2</h3>
+
+<p>Create a 900 x 750 Photoshop document with a white background. Click <em>View &gt; Show Grid</em>.</p>
+
+<p>Open each letter photo in Photoshop. Set your crop to 100 x 100 and crop the letters. Once cropped bring the letter into the large Photoshop document.</p>
+
+<p>Use the white space in the bottom right corner to type set your name. When you are finished. Save the image for the web as a jpg file: <em>File &gt; Save for Web and Devices &gt; Preset: JPEG, Quality: High</em> and post the image to your class blog.</p>
+
+<h2 id="activity-type-setting-an-article">Activity Type Setting an Article</h2>
+
+<p>Together let&#39;s type set Tim Berners-Lee&#39;s <a href="http://www.w3.org/People/Berners-Lee/ShortHistory.html">The World Wide Web: A very short personal history</a></p>
+
+<h2 id="sizing-type">Sizing Type</h2>
+
+<p>Up until now we&#39;ve been sizing our type with with the px unit of measure, but from here on out we&#39;ll be using <code>ems</code>. There&#39;s a <a href="http://css-tricks.com/why-ems/">number of reasons</a> to use ems over px, but most importantly is te flexibility it gives us as designers.</p>
+
+<p>Our body font size is set to 100%, which is equivalent to 16px. Ems are a <em>relative</em> unit of measure, so we will use our base size of 16px to calculate our other type sizes.</p>
+
+<p>The basic formula is as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Desired font size / 16 = em measurement
+</code></pre></div>
+<p>For example, if we&#39;d like a type size of 24 for an h2, we&#39;d calculate it as such:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">24 / 16 = 1.5
+</code></pre></div>
+<p>And our CSS would be:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h2</span> <span class="p">{</span>
+  <span class="k">font-size</span> <span class="m">1.5em</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>If math isn&#39;t your thing, the <a href="http://pxtoem.com/">pxtoem.com</a> takes a lot of the guess work our of conversions.</p>
+
+<h2 id="hierarchy">Hierarchy</h2>
+
+<p>Having a clear hierarchy will improve the legibility and scanability of your page. Here&#39;s a solid baseline for projects:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">3em</span><span class="p">;</span> <span class="c">/* 48px */</span>
+<span class="p">}</span>
+
+<span class="nt">h2</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">2.25em</span> <span class="c">/* 36px */</span>
+<span class="p">}</span>
+
+<span class="nt">h3</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.75em</span> <span class="c">/* 28px */</span>
+<span class="p">}</span>
+
+<span class="nt">h4</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">1.125em</span> <span class="c">/*18px */</span>
+<span class="p">}</span>
+
+<span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">1em</span> <span class="c">/* 16px */</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="line-length">Line Length</h2>
+
+<p>Although they can easily be found <a href="http://amazon.com">all</a> <a href="http://wikipedia.org">over</a> the web, long line lengths are difficult to read.</p>
+
+<h2 id="html-character-entities">HTML Character Entities</h2>
+
+<p>Character entities are used to print special characters in HTML. Some are essential such as the less-than and greater-than symbols which are used in HTML tags. To display a greater-than symbol on a web page, you must use a character entitites. Character entities also give us greater control over our typography.</p>
+
+<p><a href="http://www.dionysia.org/html/entities/symbols.html">Here is a full list of HTML character entities</a></p>
+
+<h2 id="finding-typefaces">Finding Typefaces</h2>
+
+<h3 id="font-stacks">Font Stacks</h3>
+
+<p>We&#39;ve already discussed font stacks briefly while learning the basics of CSS. While we don&#39;t have the control or amount of choice in type that the following methods will discuss, there are still several benefits to using native typefaces with font stacks. Mainly:</p>
+
+<ul>
+<li>They are quick to load (the user doesn&#39;t need to download them)</li>
+<li>They render nicely (web fonts can look less than great on certain operating systems)</li>
+</ul>
+
+<h3 id="@font-face">@font-face</h3>
+
+<p>@font-face is a way of using font-files so that all users are served the typeface you&#39;ve chosen for your site design. <a href="http://www.fontsquirrel.com/">Font Squirrel</a> has a great directory of free fonts and creates downloadable @font-face kits for you.</p>
+
+<h3 id="web-font-services">Web Font Services</h3>
+
+<p>There are a handful of services that take the guess work out of using @font-face.</p>
+
+<p><a href="https://typekit.com/">Typekit</a> uses professional typefaces, but the free plan can only be used on one site.</p>
+
+<p><a href="https://www.google.com/fonts">Google Web Fonts</a> uses free and open source fonts (similar to Font Squirrel), but makes adding the the fonts to a page <em>really</em> easy. </p>
+
+<p>Be sure to take a look at <a href="http://hellohappy.org/beautiful-web-type">The Best Google Web Fonts</a> demo</p>
+
+<h2 id="web-type-activity-1">Web Type Activity 1</h2>
+
+<p>Choose a quote or song lyric and try creating a typographic interpretation, similar to those found at <a href="http://hellohappy.org/beautiful-web-type">The Best Google Web Fonts</a> demo. Try to be creative, but <strong>do not use more than 2 fonts.</strong></p>
+
+<h2 id="web-type-activity-2">Web Type Activity 2</h2>
+
+<p>We can do a better job than the last style sheets used in our Discography projects by creating a <em>new</em> style sheet for this website. This style sheet will be used for both pages.</p>
+
+<p>Create a new style sheet for your Discography website. Link the style sheet in both HTML documents.</p>
+
+<p>Make appropriate typography decisions such as:</p>
+
+<ul>
+<li>font</li>
+<li>line length</li>
+<li>line height</li>
+<li>visual hierarchy</li>
+<li>Make everything legible and readable.</li>
+</ul>
+
+<p>Your links need to have 4 states:</p>
+
+<ul>
+<li>link</li>
+<li>visited</li>
+<li>hover</li>
+<li>active</li>
+</ul>
+
+<p>Use ems for your unit of measurement.</p>
+
+<h2 id="this-week&#39;s-assignments">This Week&#39;s Assignments</h2>
+
+<h3 id="codeacademy">CodeAcademy</h3>
+
+<p>Complete lessons 7, 8, 9, and 10 of the <a href="http://www.codecademy.com/tracks/web">HTML &amp; CSS track</a>. Send me a screenshot showing completion prior to next week&#39;s class.</p>
+
+<h3 id="blog-post">Blog Post</h3>
+
+<p>Complete the found alphabet activity and post it to your blog.</p>
+
+<h3 id="reading">Reading</h3>
+
+<p><strong>Focus on the concept not the technical how-to for now</strong></p>
+
+<ul>
+<li><a href="http://alistapart.com/article/responsive-web-design/">Responsive Web Design</a></li>
+<li><a href="http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/">Responsive Web Design: What It Is and How To Use It</a></li>
+</ul>
+
+  </div>
+</article>
+
+
+    <footer class="site-footer">
+      <p>All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </footer>
+  </div>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

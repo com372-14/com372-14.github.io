@@ -1,11 +1,12 @@
 ---
 layout: default
-title: resources
+title: Resources
+slug: resources
 ---
 
 ## HTML
-- [Project Starter Template](https://github.com/DMD1070/project-template)
-- [Basic HTML Template](https://github.com/DMD1070/html-template)
+- [Project Starter Template](https://github.com/com372-14/project-template)
+- [Basic HTML Template](https://github.com/com372-14/page-template)
 
 ## CSS
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Syllabus
+slug: syllabus
 ---
 
 <article role="article">

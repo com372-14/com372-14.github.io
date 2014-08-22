@@ -1,6 +1,5 @@
 ---
 ---
 {% include css/normalize.css %}
-{% include css/font-awesome.css %}
 {% include css/custom.css %}
 {% include css/syntax.css %}

@@ -147,7 +147,7 @@ HTML documents are written in plain text. They can be written in any text editor
     <li>Ordered list item 3</li>
 </ol>
 
-<a href="http://dmd1070.github.io/">This is a link</a>
+<a href="http://www.google.com/">This is a link</a>
 
 <img src="pizza.jpg">
 
@@ -179,7 +179,7 @@ A very basic HTML page:
 </html>
 ```
 
-**[Our starter HTML template is available to download on Github](https://github.com/DMD1070/html-template).**
+**[Our starter HTML template is available to download on Github](https://github.com/com372-14/page-template).**
 
 ## Activity: Menu Markup
 

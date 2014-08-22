@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Intermediate HTML & CSS</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">&#60;COM372-14&#62;</span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/syllabus"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Intermediate HTML & CSS</h1>
+  <p class="date">Lesson Number 5, </p>
+  <div id="post">
+  <p class="lead"></p>
+    <p class="lead">Now that we know the basics of HTML and CSS, let's level up by introducing new tags and ways to style things.</p>
+
+<h2 id="intermediate-html">Intermediate HTML</h2>
+
+<p>Together we&#39;ll be marking up and styling the <a href="/lesson_files/husky_cupcakes_menu.txt">Husky Cupcakes menu</a>.</p>
+
+<h3 id="&lt;span&gt;-and-&lt;div&gt;"><code>&lt;span&gt;</code> and <code>&lt;div&gt;</code></h3>
+
+<p>The <code>span</code> and <code>div</code> tags are generic containers for content on our page. <code>div</code>&#39;s are used to represent <strong>blocks</strong> of content, while <code>span</code>&#39;s are used to represent <strong>inline</strong> content.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Any kind of content <span class="nt">&lt;span&gt;</span>here<span class="nt">&lt;/span&gt;</span>.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
+<h3 id="tables">tables</h3>
+
+<p>Tables are used to represent tabular data. Here&#39;s an example of a simple table:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>John<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Doe<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Jane<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Doe<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div>
+<p>Here&#39;s a table with header cells:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;th&gt;</span>First Name<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;th&gt;</span>Last Name<span class="nt">&lt;/th&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>John<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Doe<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Jane<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;td&gt;</span>Doe<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div>
+<h3 id="classes-and-id&#39;s">classes and ID&#39;s</h3>
+
+<p>We can apply classs and ID&#39;s to our HTML. This allows us to give greater meaning to our document and more easily add styles or behaviors to specific elements.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">id=</span><span class="s">&quot;site-title&quot;</span><span class="nt">&gt;</span>This heading has an id of &#39;site-title&#39;<span class="nt">&lt;/h1&gt;</span>
+
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;intro&quot;</span><span class="nt">&gt;</span>This paragraph has a class of &#39;intro&#39;<span class="nt">&lt;/p&gt;</span>
+</code></pre></div>
+<p>So, what&#39;s the difference? IDs can only be used <strong>once</strong> per valid HTML page, while we may apply classes to as many elements as we like.</p>
+
+<h2 id="intermediate-css">Intermediate CSS</h2>
+
+<h3 id="borders">Borders</h3>
+
+<p>We can give things borders:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">border-width</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span>
+  <span class="k">border-style</span><span class="o">:</span> <span class="k">solid</span><span class="p">;</span>
+  <span class="k">border-color</span><span class="o">:</span> <span class="m">#1fa67a</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Though I find it much easier to use the shorthand version:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#1fa67a</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Possible border styles are: <em>dotted, dashed, solid, double, groove, ridge, inset, and outset.</em></p>
+
+<h3 id="getting-more-specific-(classes,-ids,-and-nested-selectors)">Getting more specific (classes, IDs, and nested selectors)</h3>
+
+<p>By using classes, IDs, and nested selectors make it much easier to style specific elements on a page.</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* this will style any element with the intro class*/</span>
+<span class="nc">.intro</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#1fa67a</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">18px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* this will style any element with the title id */</span>
+<span class="nf">#title</span> <span class="p">{</span>
+  <span class="k">font-weight</span><span class="o">:</span> <span class="k">bold</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* this will only style span tags within a paragraph */</span>
+<span class="nt">p</span> <span class="nt">span</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* this will only style paragraphs inside of an element with the .intro class */</span>
+<span class="nc">.intro</span> <span class="nt">p</span> <span class="p">{</span>
+  <span class="k">font-style</span><span class="o">:</span> <span class="k">italic</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="link-styles">Link styles</h3>
+
+<p>By default links are blue and visited links are purple. We can style links as follows:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* style the default link color */</span>
+<span class="nt">a</span><span class="nd">:link</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#52736B</span>
+<span class="p">}</span>
+
+<span class="c">/* style visited links */</span>
+<span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#093844</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">/*</span> <span class="nt">style</span> <span class="nt">hover</span><span class="o">/</span><span class="nt">focus</span> <span class="nt">links</span> <span class="o">/*</span>
+<span class="nt">a</span><span class="nd">:hover</span><span class="o">,</span>
+<span class="nt">a</span><span class="nd">:active</span><span class="o">,</span>
+<span class="nt">a</span><span class="nd">:focus</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="m">#D94214</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="center-your-page">Center your page</h3>
+
+<p>Though we&#39;ll talk about layout in more depth in an upcoming class, a common request has been to center your page content on the screen. Here&#39;s how we would do that:</p>
+
+<p>The HTML:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- HTML &lt;head&gt;&lt;/head&gt; above this --&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;wrap&quot;</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- PAGE CONTENT HERE --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span> <span class="c">&lt;!-- this closes the .wrap div --&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+<p>The CSS:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.wrap</span> <span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">700px</span><span class="p">;</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="in-class-activity">In-class Activity</h2>
+
+<p>Over the next few classes, you will create a small website that showcases a band’s album releases.</p>
+
+<h3 id="steps">Steps</h3>
+
+<p>Choose a music artist of band that has at least 4 releases and at least two band members.</p>
+
+<p>Find the band members names&#39; and a little background information about them. You can use information found on the Web or other sources. <strong>Just make sure to cite and link to your source.</strong></p>
+
+<p>For each of 4 of their albums, find the title, track listing, and cover art.</p>
+
+<p>Gather, edit, and organize copy. Make sure that you keep a record of your sources. Add the appropriate content to your HTML documents. Keep reading to know what copy you need to gather, edit, and organize.</p>
+
+<p>In your DMD1070 folder, create a new folder named <strong>discography</strong>.</p>
+
+<p>Create 2 html files:</p>
+
+<ul>
+<li>index.html</li>
+<li>discography.html</li>
+</ul>
+
+<p>index.html should have:</p>
+
+<ul>
+<li>Band/artist name</li>
+<li>Image of the band/artist</li>
+<li>Background information</li>
+<li>Unordered list of band members</li>
+<li>Table with 2-columns
+
+<ul>
+<li>Year album was released</li>
+<li>title of the album</li>
+</ul></li>
+</ul>
+
+<p><strong>discography.html should have, for <em>each</em> album:</strong></p>
+
+<ul>
+<li>A div with a unique id</li>
+<li>Inside the div have:
+
+<ul>
+<li>Title of album</li>
+<li>The album cover art</li>
+<li>Ordered list of track listing</li>
+<li>Link (Back) to about page</li>
+</ul></li>
+</ul>
+
+<p>This activity is originally from <a href="http://teachtheweb.com/course_materials/discography_1.php">Teach the Web</a></p>
+
+  </div>
+</article>
+
+
+    <footer class="site-footer">
+      <p>All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </footer>
+  </div>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>
