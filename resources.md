@@ -30,7 +30,7 @@ title: resources
 
 ## Online Books / Things to Read
 
-- [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/en-US/home
+- [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/en-US/home)
 
 ## Books to Buy
 
