@@ -12,11 +12,11 @@
 
   <link rel="shortcut icon" href="/favicon.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/assets/css/all.css">
 </head>
-<body>
+<body class="{{ page.slug }}">
 
   {% include header.html %}
 
@@ -30,8 +30,10 @@
   </div>
 <script src="/assets/js/jquery-1.11.0.min.js"></script>
 <script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
 <script>
-  $('.lesson').scrollNav({
+  $('.lesson, .syllabus, .resources').scrollNav({
     showHeadline: false,
     showTopLink: false
   });
