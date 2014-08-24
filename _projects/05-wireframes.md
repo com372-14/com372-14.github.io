@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Project 5 - Wireframes
+title: Project 5 - Wireframes (Still need to edit this)
 duedate:
 ---
 
@@ -11,7 +11,7 @@ This module will teach you about the role wireframes play in the development pro
 
 ## What You'll Produce
 
-You will develop wireframes for your portfolio. You'll sketch ideas for your primary interfaces (particularly your landing page and your resume, but any others your design requires) and then use one of the resource tools discussed in class to develop high-resolution wireframes for those interfaces.
+You will develop wireframes for your final project. You'll sketch ideas for your primary pages and then use one of the resource tools discussed in class to develop high-resolution wireframes for those interfaces.
 
 ## Step-by-Step Instructions
 
