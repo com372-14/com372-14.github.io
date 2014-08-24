@@ -43,3 +43,7 @@ collections:
     output: true
   projects:
     output: true
+    
+# sass setup
+sass:
+  sass_dir: _sass

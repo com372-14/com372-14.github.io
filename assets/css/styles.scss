@@ -1,0 +1,98 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "vars";
+@import "type";
+
+body {
+  background: #fff;
+  color: #444;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 38em;
+  padding: 0 15px;
+  font-size: 1.25em; /*set container base font to 20px */
+}
+
+a{ 
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+  transition: .1s;
+  &:link, &:visited{
+    color: #996172;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  &:hover, &:active, &:focus{
+    opacity: .9;
+    border-bottom: 2px solid rgb(224, 92, 78);
+  }
+}
+
+/*
+Header
+--------------------------- */
+
+.site-header {
+  background: darken($main-color, 20%);
+  padding: 15px;
+  a:link,
+  a:visited {
+    color: #eceeed;
+    font-weight: 600;
+    text-decoration: none;
+    .fa{
+      color: rgb(224, 92, 78);
+      font-size: 1.2em;
+    }
+  }
+  
+  a:hover,
+  a:active,
+  a:focus {
+    border-bottom: 2px solid rgb(224, 92, 78);
+  }
+  
+
+}
+
+.site-title a:hover,
+.site-title a:active,
+.site-title a:focus {
+  color: #eceeed;
+  border-bottom: none;
+}
+
+
+
+
+.subtitle {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.site-title {
+  margin: 5px;
+  font-size: 1.5em;
+  line-height: 56px; /* height of header */
+  text-align:center;
+}
+
+.site-nav {
+  min-width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.nav-list li {
+  display: inline;
+  margin-left: 1.5em;
+}
+

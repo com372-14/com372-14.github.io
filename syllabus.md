@@ -4,13 +4,8 @@ title: Syllabus
 slug: syllabus
 ---
 
-<article role="article">
-
-  <header>
-
 # Syllabus
 
-  </header>
 
 ## Course Description
 
@@ -51,17 +46,23 @@ More traditionally, upon completion of this course, students will be able to:
 
 The final grade will be determined by performance on the following projects. The specific details of each project will be included on the project’s assignment sheet and discussed in class. _You must complete each assignment to earn a passing grade!_
 
-*   **Final Web Portfolio** (60%): Although it will be assessed at the semester’s end as one portfolio, this portion of your grade actually consists of several different objects. Each of the following items will be given a tentative grade when initially submitted, and that object can then be revised and reworked throughout the semester. The final portfolio will be assessed as a whole, and we will discuss specific evaluation criteria in class. _(Expect to spend 2-3 hours per week on this, varying based on your schedule and deadlines.)_ The breakdown:
+**[Course Portfolio](/projects/00-projectportfolio)** (5%) This will be your home base for your course.  It will serve as your course "portfolio", serving as a showcase for your coursework. We will build this together thoughtout the semester, and you will add links to course assignments.  Will consist of (at minimum)
 
-    *   [**Personal Website**](personalwebsite.html): You will use the Bootstrap framework to prototype and build a personal portfolio website.
+  1. your contact information
+  2. Links to assignment submissions
+  3. Other relevant materials
+
+**[Codecademy Exercises](/projects/11-codecademy.html)** (5%) Throughout the course, you will work through the **Web Fundamentals** Track on CodeCademy. This will help you to better practice your HTML and CSS skills.
+
+**[Coding Check-ins](/projects.html)** (20%) Each week you will complete a minor coding challenge, building small pages that reinforce and showcase the week’s major concepts. _(Expect to spend 2-3 hours per week on this.)_
+
+**Final Web Portfolio** (60%) Although it will be assessed at the semester’s end as one portfolio, this portion of your grade actually consists of several different objects. Each of the following items will be given a tentative grade when initially submitted, and that object can then be revised and reworked throughout the semester. The final portfolio will be assessed as a whole, and we will discuss specific evaluation criteria in class. _(Expect to spend 2-3 hours per week on this, varying based on your schedule and deadlines.)_ The breakdown:
+
+    *   **Personal Website**: You will use a web framework (Bootstrap is recommended) to prototype and build a personal portfolio website.
     *   **Personal Narrative**: You will write, in HTML/CSS, a personal narrative essay that serves as homepage for and links to all other portfolio materials.
-    *   **Coding Check-In Revisions**: You will apply Bootstrap to at least three of the early coding check-ins. These revisions will also be submitted with the portfolio.
+    *   **Coding Check-in Revisions**: You will apply Bootstrap (or another framework of your choice) to at least three of the early coding check-ins. These revisions will also be submitted with the portfolio.
 
-*   **Weekly Coding Check-Ins** (20%): Each week you will complete a minor coding challenge, building small pages that reinforce and showcase the week’s major concepts. _(Expect to spend 2-3 hours per week on this.)_
-
-*   **Inspiration Notebook** (10%): You will keep, in Evernote, an inspiration notebook. This should include screenshots of sites you like, found news articles or blog posts that are relevant to the course, and other ephemera related to the web. You will write a brief overview of your notebook and share it during midterm and finals. _(Expect to spend no more than an hour per week on this.)_
-
-*   **Informal Projects, Class Prep, &amp; Attendance** (10%): This category will be assessed based both on your contributions to github and your attendance to and in participation in class activities. Specific criteria will be discussed and negotiated in class. _(Beyond class time, you will have to devote 3-4 hours per week to reading and prepping; however, you should do that in tandem—and expect it to overlap with—your work on the coding check-ins)._
+**Informal Projects, Class Prep, &amp; Attendance** (10%): This category will be assessed based both on your contributions to github and your attendance to and in participation in class activities. Specific criteria will be discussed and negotiated in class. _(Beyond class time, you will have to devote 3-4 hours per week to reading and prepping; however, you should do that in tandem—and expect it to overlap with—your work on the coding check-ins)._
 
 ## Policies
 
