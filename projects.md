@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: Projects
+slug: projects
 ---
 
 <h2 class="section-title">Building Blocks of the Web</h2>
