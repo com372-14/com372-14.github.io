@@ -43,6 +43,8 @@ collections:
     output: true
   projects:
     output: true
+  info:
+    output: true
     
 # sass setup
 sass:

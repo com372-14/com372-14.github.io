@@ -64,23 +64,26 @@ Read the Web inventor's brief personal history. Do you think his vision of the w
 
 ### 2.  Written Assignment: The Wayback Machine
 
+<p class="due-date">Due Tuesday, August 26 by 11:59pm</p>
 Choose a popular website and enter its URL into the [Wayback Machine](https://archive.org/web/). Browse through at least 5 dates of the site's history and note the following:
 
 - How has the design of the site changed?
 - How has the content of the site changed?
 - What are some similarities between past and current versions of the site?
 
-Write a paragraph for each of these questions.  Save it as a text document, and email it to me at [kpipe@sju.edu](mailto:kpipe@sju.edu).
+Write a paragraph for each of these questions.  Save it as a plain text document ([how? read more here](/info/saving-to-plaintext.html)), and email it as an attachment to me at [kpipe@sju.edu](mailto:kpipe@sju.edu).
 
 ### 3. Get Your Computer (and set it up)
 
 - **Bring your computer** to the next class.
-- **Install Google Chrome **on your computer
-- **Sign up for [GitHub](https://github.com/join).**  Create a free account.
+- **Install Google Chrome** on your computer
+- **Sign up for [GitHub](https://github.com/join).**  Create a free account.  Email me your Github Username and I will add you to our class organization.
 - **Install** [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/).
 
 ### 4. Buy the Books
-<li><strong>Buy the books.</strong>  Chapters 1 and 2 of Robbins are due for Friday.</li>
+
+- Buy the books.</strong>  Chapters 1 and 2 of Robbins are due for Friday.
+- If you would like to share the books with another classmate, that is fine.
 
 
 ## Lesson Credits

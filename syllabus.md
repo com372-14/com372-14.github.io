@@ -18,13 +18,16 @@ Students are not expected to have previous experience in creating websites – t
 There are two required text for this class:
 
 *   Robbins, Jennifer Niederst. (2012). [_Learning Web Design: A Beginner’s Guide to HTML, CSS, Javascript, and Web Graphics._](http://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1449319270/) O’Reilly Media.
+[Digital Version](http://shop.oreilly.com/product/0636920023494.do) available on O'Reilly's website
 
 *   Hagen, Rebecca &amp; Kim Golombisky. (2013). [_White Space Is Not Your Enemy: A Beginner’s Guide to Communicating Visually Through Graphic, Web, &amp; Multimedia Design._](http://www.amazon.com/White-Space-Your-Enemy-Communicating/dp/0240824148) Focal Press.
+[Digital Version](http://cw.routledge.com/textbooks/9780240824147/index.html)
 
 I will also ask you to use several specific pieces of free software (we will install these, together, in class):
 
 *   We will edit code using [Brackets](http://www.brackets.io), a free software available for both Mac and PC
 *   Everyone will store and submit files their work at [Github](http://www.github.com)
+*   We will navigate the web using [Google Chrome](https://www.google.com/chrome/browser/)
 
 Finally, you will have the opportunity to purchase web hosting &amp; a domain. This isn’t required, but it is recommended. We will discuss all of the above in class.
 
