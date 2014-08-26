@@ -95,3 +95,9 @@ lead: In this lesson we will learn about how to set up your computer for web des
 ### 1. Read
 
 Read Robbins, 3-32
+
+### 2. Watch
+
+- Watch [Let's Suck At GitHub Together!](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/)  (18 minutes) - Chris Coyier is a great web designer and one of the best in the business.  He demonstrates how to use github using the Tower program - a slightly different program, but this may be helpful!  Also, it's kind of fun to watch a professional completely embracing the idea of not REALLY understanding what they're doing, but not letting that stop them!
+- Watch [Git for Humans](https://www.youtube.com/watch?v=gp6v7AXQQTY) (13 minutes) - These are the slides I went through in class; Tom Ashworth is the original author, and you can watch his presentation of it to understand Git a little better.
+- Watch [Github](https://www.youtube.com/watch?v=vknMgAJqH6Q) If you're still having issues / can't quite understand Git, this is a quick tutorial on how to use Github for Mac.
