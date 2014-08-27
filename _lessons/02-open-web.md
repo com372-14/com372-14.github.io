@@ -52,16 +52,16 @@ lead: In this lesson we will learn about how to set up your computer for web des
 	<li>We are going to organize everything you work on in this class into a folder in your computer.  I recommend setting up a folder in your home directory called <strong>Sites</strong>.  You may find this folder is already created - if so, great!  If not, create it now.</li>
 </ul>
 
-## Version Control and You</h2>
+<!--## Version Control and You</h2>
 
 - [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 - What is Github?
 - We will create our first repository and name it "project01"
 - We will create a branch in this repository and name it "gh-pages".  This is a special branch that will tell GitHub that you want to create a web page using this branch.  (read more at [GitHub Pages](https://pages.github.com/))
 - We will clone our repository to our computers
+-->
 
-
-## Your First Web Page
+<!--## Your First Web Page
 <ul>
 	<li>Open a text editor on your computer (TextEdit or Notepad).</li>
 	<li>If you are using TextEdit, you will need to change the format to "Plain Text".
@@ -88,7 +88,7 @@ lead: In this lesson we will learn about how to set up your computer for web des
 	<li>You should give each commit a summary, and an optional description</li>
 	<li>Commit your change, and then sync to your repository.</li>
 	<li>This <strong>added</strong> your index.html file to your github repository.  Log into http://www.github.com/YOURNAME/REPONAME to see your repository.</li>
-</ul>
+</ul>-->
 
 ## Assignments
 
@@ -96,8 +96,8 @@ lead: In this lesson we will learn about how to set up your computer for web des
 
 Read Robbins, 3-32
 
-### 2. Watch
+<!--### 2. Watch
 
 - Watch [Let's Suck At GitHub Together!](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/)  (18 minutes) - Chris Coyier is a great web designer and one of the best in the business.  He demonstrates how to use github using the Tower program - a slightly different program, but this may be helpful!  Also, it's kind of fun to watch a professional completely embracing the idea of not REALLY understanding what they're doing, but not letting that stop them!
 - Watch [Git for Humans](https://www.youtube.com/watch?v=gp6v7AXQQTY) (13 minutes) - These are the slides I went through in class; Tom Ashworth is the original author, and you can watch his presentation of it to understand Git a little better.
-- Watch [Github](https://www.youtube.com/watch?v=vknMgAJqH6Q) If you're still having issues / can't quite understand Git, this is a quick tutorial on how to use Github for Mac.
+- Watch [Github](https://www.youtube.com/watch?v=vknMgAJqH6Q) If you're still having issues / can't quite understand Git, this is a quick tutorial on how to use Github for Mac.-->
