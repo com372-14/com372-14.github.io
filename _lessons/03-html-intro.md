@@ -118,7 +118,7 @@ HTML documents are written in plain text. They can be written in any text editor
 
 ## Creating our first web pages
 
-<iframe src="//slid.es/ascott1/introductiontohtml/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://docs.google.com/presentation/embed?id=1_CGlKMEB6eVm5em64rxw1eoiiZHxjkbRlaVXRwyIolw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
 
 ## Common HTML Tags
 
@@ -181,11 +181,6 @@ A very basic HTML page:
 
 **[Our starter HTML template is available to download on Github](https://github.com/com372-14/page-template).**
 
-## Activity: Menu Markup
-
-Here is the plain text of a pizza menu: [Long Wharf Pizza Menu](/lesson_files/long_wharf_pizza.txt)
-
-To practice our HTML chops, mark it up as a [valid](http://validator.w3.org/) HTML file.
 
 ## Homework
 
@@ -203,4 +198,3 @@ To practice our HTML chops, mark it up as a [valid](http://validator.w3.org/) HT
 
 1. Complete Project 1.  The instructions are in the project page.
 2. As the course moves on, we will add project information to our *Project Portfolio*.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.
-

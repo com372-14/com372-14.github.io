@@ -7,6 +7,10 @@ h2 {
 h3 {
   color: #00446d; }
 
+.duedate {
+  font-size: 1.3em;
+  color: #999; }
+
 body {
   background: #fff;
   color: #444;
