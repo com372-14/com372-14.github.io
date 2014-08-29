@@ -5,8 +5,9 @@ slug: resources
 ---
 
 ## HTML
-- [Project Starter Template](https://github.com/com372-14/project-template)
-- [Basic HTML Template](https://github.com/com372-14/page-template)
+- <i class="fa fa-github"></i> [Project Starter Template](https://github.com/com372-14/project-template)
+- <i class="fa fa-github"></i> [Basic HTML Template](https://github.com/com372-14/page-template)
+- [HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 ## CSS
 
