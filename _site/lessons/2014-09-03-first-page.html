@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Making your first page</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Making your first page</h1>
+  <p class="date">Lesson Number 04, September 3, 2014</p>
+  <div id="post">
+  <p class="lead">Now that we are familiar with the basic structure and syntax of HTML, let's write our first page!</p>
+    <h2 id="due-for-this-class">Due For This Class</h2>
+
+<p><em>Both items are due at the start of class</em></p>
+
+<ul>
+<li>Read <a href="http://alistapart.com/article/a-brief-history-of-markup">A Brief History of Markup</a></li>
+<li>Complete first lesson in the CodeCademy <a href="http://www.codecademy.com/tracks/web">Web Fundamentals</a> track.  Email me the screenshot of your completed lesson.</li>
+</ul>
+
+<!--## Presentation
+
+<iframe src="https://docs.google.com/presentation/embed?id=1_CGlKMEB6eVm5em64rxw1eoiiZHxjkbRlaVXRwyIolw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
+-->
+
+<h2 id="more-common-html-terms">More Common HTML Terms</h2>
+
+<h3 id="attributes">Attributes</h3>
+
+<p>The tag may contain additional information and such information is called an attribute. Tags such as <code>&lt;img&gt;</code> and <code>&lt;a&gt;</code> use attributes. Attributes usually consist of 2 parts:</p>
+
+<ul>
+<li>An attribute name (such as <code>src</code> or <code>href</code>)</li>
+<li>An attribute value (such as <code>doge.jpg</code> or <code>link.html</code>)</li>
+<li>Attribute values should be wrapped in quote marks (&quot; or &#39;).  I recommend using double-quotes.  Whatever you choose, stay consistent.</li>
+</ul>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;myimage.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;A great selfie!&quot;</span><span class="nt">&gt;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&#39;myimage.jpg&#39;</span> <span class="na">alt=</span><span class="s">&#39;SJU Campus&#39;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<p><strong>Important note about using quote marks</strong> - When you are working with quote marks, you will need to be careful of using quotes within your attributes.  When possible, use the opposite type of quote mark than what you will write within the value.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;myimage.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;Saint Joseph&#39;s Campus&quot;</span><span class="nt">&gt;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&#39;myimage.jpg&#39;</span> <span class="na">alt=</span><span class="s">&#39;The dog said &quot;Woof!&quot;&#39;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<p>Or you can use encoded characters.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;myimage.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;Some &amp;quot;text&amp;quot;&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+<h2 id="coding-standards">Coding Standards</h2>
+
+<p>The way that you write code matters from a readability standpoint. While your code may work and validate if you do not follow these guidelines, it is important that you learn to write code neatly and cleanly.</p>
+
+<p>Here are some basic guidelines.  We will expand these as you progress through this course.</p>
+
+<p>1) Use all lowercase in tag names (with the exception of DOCTYPE - you can choose what you would like to do for this)</p>
+
+<p><em>Good</em>
+<code>html
+&lt;p&gt;This is my &lt;strong&gt;important&lt;/strong&gt; text.&lt;/p&gt;
+</code>
+<em>Bad</em>
+<code>html
+&lt;P&gt;This is my &lt;STRONG&gt;important&lt;/STRONG&gt; text.&lt;/P&gt;
+</code></p>
+
+<p>2) Start the following tags on new lines</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>, <span class="nt">&lt;div&gt;</span>, <span class="nt">&lt;h1&gt;</span> - <span class="nt">&lt;h6&gt;</span>, <span class="nt">&lt;ul&gt;</span>, <span class="nt">&lt;li&gt;</span>
+</code></pre></div>
+<p>There are more tags that it would make sense for starting on new lines, but we have not learned them yet.</p>
+
+<p>3) Don&#39;t start the following tags on new lines (unless doing so helps with the readability of your code - can especially be the case when, for example, you&#39;re wrapping an image in an anchor)</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;strong&gt;</span>, <span class="nt">&lt;em&gt;</span>, <span class="nt">&lt;a&gt;</span>, <span class="nt">&lt;img&gt;</span>
+</code></pre></div>
+<p>4) Indent with two spaces (your IDE should help you do this - when we start using an IDE I will discuss with you how to set this up).</p>
+
+<p>If you&#39;re interested, there are many style guides out there.  </p>
+
+<ul>
+<li><a href="https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">Google</a></li>
+<li><a href="http://codeguide.co/">MDO</a></li>
+<li><a href="http://paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> - this addresses reasoning for using specific elements</li>
+</ul>
+
+<p>And just for fun, here is TimBL&#39;s <a href="http://www.w3.org/Provider/Style/">original style guide</a></p>
+
+<p>5) Use a reasonable amount of empty lines to separate your code if you think it helps with readabilty.  Not all tags need to be separated by full empty lines. Don&#39;t use extraneous whitespace - use 1 empty line rather than 5.</p>
+
+<p>6) Use comments as much as you want in the beginning!  Comments are great, particularly for you to mark where you may be having difficulties with your code or to justify your coding choices.</p>
+
+<h2 id="starter-html-template">Starter HTML Template</h2>
+
+<p>A very basic HTML page:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>PAGE TITLE<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- DON&#39;T FORGET THE TITLE --&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  <span class="c">&lt;!-- PLACE ALL OF YOUR PAGE CONTENT BELOW HERE --&gt;</span>
+
+  <span class="nt">&lt;h1&gt;</span>This is my heading<span class="nt">&lt;/h1&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>This is a paragraph<span class="nt">&lt;/p&gt;</span> 
+
+  <span class="c">&lt;!-- AND ABOVE HERE --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+<p><strong><a href="https://github.com/com372-14/page-template">Our starter HTML template is available to download on Github</a>.</strong></p>
+
+<h2 id="homework">Homework</h2>
+
+<h3 id="project-1---using-html-to-structure-text-(due-9/3/2014)">Project 1 - Using HTML to Structure Text (due 9/3/2014)</h3>
+
+<ol>
+<li>Complete Project 1.  The instructions are in the project page.</li>
+<li>As the course moves on, we will add project information to our <em>Project Portfolio</em>.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.</li>
+</ol>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

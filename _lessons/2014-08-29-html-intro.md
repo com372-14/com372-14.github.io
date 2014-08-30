@@ -6,6 +6,14 @@ class_date: August 29, 2014
 lead: Hypertext Markup Language (HTML) is the basis of every page on the web. HTML provides the meaning and structure to our pages.
 ---
 
+## Due Today
+
+- Read Chapters 1 and 2 of the Robbins book.
+
+## Presentation
+
+<iframe src="https://docs.google.com/presentation/embed?id=1_CGlKMEB6eVm5em64rxw1eoiiZHxjkbRlaVXRwyIolw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
+
 ## What is HTML?
 
 HTML is a markup language. It tells the web browser what content to display. HTML separates "content" (words, images, audio, video, and so on) from "presentation" (the definition of the type of content and the instructions for how that type of content should be displayed). HTML uses a pre-defined set of elements to identify content types. Elements contain one or more "tags" that contain or express content. Tags are surrounded by angle brackets, and the "closing" tag (the one that indicates the end of the content) is prefixed by a forward slash.
@@ -116,10 +124,6 @@ Adapted from Mozilla Developer Networks' [Introduction to HTML](https://develope
 
 HTML documents are written in plain text. They can be written in any text editor that allows content to be saved as plain text, such as Notepad, Notepad++, or Sublime,  but most HTML authors prefer to use a specialized editor that highlights syntax and shows the DOM. 
 
-## Creating our first web pages
-
-<iframe src="https://docs.google.com/presentation/embed?id=1_CGlKMEB6eVm5em64rxw1eoiiZHxjkbRlaVXRwyIolw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
-
 ## Common HTML Tags
 
 ```html
@@ -193,8 +197,3 @@ A very basic HTML page:
 2. Select the [Web Fundamentals](http://www.codecademy.com/tracks/web) track.
 3. Complete lesson 1 HTML Basics (**note: there are 13 steps to this lesson**).
 4. To verify you have completed this lesson [take a screenshot](http://www.take-a-screenshot.org/) of  page that clearly shows you have completed the lesson and email it to me ([kpipe@sju.edu](mailto:kpipe@sju.edu)).
-
-### Project 1 - Using HTML to Structure Text (due 9/3/2014)
-
-1. Complete Project 1.  The instructions are in the project page.
-2. As the course moves on, we will add project information to our *Project Portfolio*.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.
