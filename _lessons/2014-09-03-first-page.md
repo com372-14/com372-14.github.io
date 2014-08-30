@@ -61,10 +61,13 @@ Here are some basic guidelines.  We will expand these as you progress through th
 1) Use all lowercase in tag names (with the exception of DOCTYPE - you can choose what you would like to do for this)
 
 *Good*
+
 ```html
 <p>This is my <strong>important</strong> text.</p>
 ```
+
 *Bad*
+
 ```html
 <P>This is my <STRONG>important</STRONG> text.</P>
 ```
