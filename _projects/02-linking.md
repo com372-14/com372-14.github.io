@@ -4,41 +4,31 @@ title: Project 2 - Web Site Evaluation and Linking
 duedate:
 ---
 
-## What You'll Learn
-
-This project will teach you about critically reviewing websites.  You'll learn how to format a website review and link to other websites.
-
 ## What You'll Produce
 
-You will create an HTML5 web page with two website critiques and two hyperlinks.  
+You will create an HTML5 web page with a recipe.
 
-The websites you choose to critique should not be Flash-heavy, search engines (like Google), or social networking sites (like Facebook).  
+### Step-By-Step
 
-### Critique Requirements
+1) Open this zip file file which contains the text and an image for a recipe.
 
-The critique of the websites should include the following information:
+2) Paste the text into an HTML document. Save it in your projects folder as 02recipe.html
 
-1. Name of the website
-2. URL of the website (this should link to the website)
-3. What is the subject of the site?
-4. Content: Is the content relevant to the subject of the site? Too much or not enough content?
-5. Navigation: Is it easy to get from one page to another, or one section to another? Does the navigation remain consistent and it is easy to use?
-6. Information Architecture: Was certain information where you thought it would be? Or, were you clicking all over the place to find what you were looking for?
-7. Visual Design: Do the aesthetic decisions help or hinder the site’s working abilities, not does it look good?
-8. Overall Functionality: Does the site work? Can you find what you are looking for, do what you want to do, and does it simply technically work?
-9. Overall Experience: Did you get what you wanted from the site?
+3) Mark up the text with some of the elements we’ve learned so far. At a minimum you should include headings, paragraphs, lists, images, links.
 
-### Technical Stuff:
+4) Link to this new page from your Project Portfolio index.html
 
-- Create a html page called 02critique.html.
-- Format your critique using headings, paragraphs, bold, italics, and other elements as needed
-- Link to each of your websites, launching into a new window (hint - use the `target` attribute for the link element)
-- Link to this new page from your Project Portfolio index.html
+5) Your document should validate.
+
+6) Your work should be synced to GitHub by the start of class on Thursday, September 18. If you need to use a lab computer to sync, we will have time for that at beginning of class.
+
+7) I would encourage you to work through this as you revisit the readings from Learning Web Design; markup makes more sense when applied to a specific task.
+
 
 **Important**
 
 - Your tags must be lowercase
-- Don’t forget to close your tags, except for `<br />` and `<hr />`
+- Don’t forget to close your tags, except for `<br />` and `<img />`
 - Test your links to make sure they work!
 
 ### Delivery 
@@ -47,4 +37,4 @@ When you have completed this project, commit it to your GitHub Project Portfolio
 
 
 ### Credit
-Web Design One Columbia College, Chicago, Debra Kayes
+Tim Lockridge, COM372 Fall 2013

@@ -30,6 +30,11 @@ slug: resources
 - [Practical Typography](http://practicaltypography.com/) (online book)
 - [Nice Web Type](http://nicewebtype.com/)
 
+## Stock Photography
+
+- [Pexels](http://www.pexels.com/)
+- Dustin Senos has curated a [list of great places to get stock photography](https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b) without having to pay for it.  Please be sure to **pay attention** to licensing (frequently you will see references to [Creative Commons licensing](http://creativecommons.org/licenses/)).
+
 ## Online Books / Things to Read
 
 - [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/en-US/home)

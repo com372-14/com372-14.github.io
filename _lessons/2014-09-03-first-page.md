@@ -2,6 +2,7 @@
 layout: post
 title: Making your first page
 lesson_num: '04'
+week_num: 2
 class_date: September 3, 2014
 lead: Now that we are familiar with the basic structure and syntax of HTML, let's write our first page!
 ---
@@ -58,7 +59,9 @@ The way that you write code matters from a readability standpoint. While your co
 
 Here are some basic guidelines.  We will expand these as you progress through this course.
 
-1) Use all lowercase in tag names (with the exception of DOCTYPE - you can choose what you would like to do for this)
+### Lowercase Tags
+
+Use all lowercase in tag names (with the exception of DOCTYPE - you can choose what you would like to do for this)
 
 *Good*
 
@@ -72,21 +75,35 @@ Here are some basic guidelines.  We will expand these as you progress through th
 <P>This is my <STRONG>important</STRONG> text.</P>
 ```
 
-2) Start the following tags on new lines
+### New Lines
 
-```html
-<p>, <div>, <h1> - <h6>, <ul>, <li>
-```
+- Start the following tags on new lines
 
-There are more tags that it would make sense for starting on new lines, but we have not learned them yet.
+  ```html
+  <p>, <div>, <h1> - <h6>, <ul>, <li>
+  ```
+  There are more tags that it would make sense for starting on new lines, but we have not learned them yet.
 
-3) Don't start the following tags on new lines (unless doing so helps with the readability of your code - can especially be the case when, for example, you're wrapping an image in an anchor)
+- Don't start the following tags on new lines (unless doing so helps with the readability of your code - can especially be the case when, for example, you're wrapping an image in an anchor)
 
-```html
-<strong>, <em>, <a>, <img>
-```
+  ```html
+  <strong>, <em>, <a>, <img>
+  ```
 
-4) Indent with two spaces (your IDE should help you do this - when we start using an IDE I will discuss with you how to set this up).
+### Two-Space Indent
+
+Indent with two spaces (your code editor should help you do this - when we start using a code editor I will discuss with you how to set this up).
+
+### Include Reasonable Amounts of Whitespace
+
+Use a reasonable amount of empty lines to separate your code if you think it helps with readabilty.  Not all tags need to be separated by full empty lines. Don't use extraneous whitespace - use 1 empty line rather than 5.
+
+### Comments are the greatest!
+
+Use comments as much as you want in the beginning!  Comments are great, particularly for you to mark where you may be having difficulties with your code or to justify your coding choices.
+
+
+## Syntax Style Guide Examples 
 
 If you're interested, there are many style guides out there.  
 
@@ -96,9 +113,6 @@ If you're interested, there are many style guides out there.
 
 And just for fun, here is TimBL's [original style guide](http://www.w3.org/Provider/Style/)
 
-5) Use a reasonable amount of empty lines to separate your code if you think it helps with readabilty.  Not all tags need to be separated by full empty lines. Don't use extraneous whitespace - use 1 empty line rather than 5.
-
-6) Use comments as much as you want in the beginning!  Comments are great, particularly for you to mark where you may be having difficulties with your code or to justify your coding choices.
 
 
 ## Starter HTML Template
@@ -129,7 +143,7 @@ A very basic HTML page:
 
 ## Homework
 
-### Project 1 - Using HTML to Structure Text (due 9/3/2014)
+### Project 1 - Using HTML to Structure Text
 
 1. Complete Project 1.  The instructions are in the project page.
 2. As the course moves on, we will add project information to our *Project Portfolio*.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.

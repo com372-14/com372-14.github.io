@@ -3,25 +3,27 @@ layout: default
 title: Home
 ---
 <h1>Course Calendar</h1>
-<h2 class="section-title">Building Blocks of the Web</h2>
 
-<ul class="posts">
+{% for weeks in (1..15) %}
+  <h2 class="section-title">Week {{weeks}}</h2>
+  <ul class="posts">
   {% for lesson in site.lessons %}
+    {% if lesson.week_num == weeks %}
     <li>
-    <h3><a href="{{ lesson.url }}">
-      <span class="lesson_num">{{ lesson.lesson_num }}.</span> {{ lesson.title }}
-    </a></h3>
-    <p class="lesson-date">{{ lesson.class_date }}</p>
-    <p class="lesson-description">{{ lesson.lead }}</p>
+    <h3>
+      <span class="lesson-date">{{ lesson.class_date }}</span>
+      {% if lesson.dontlink == true %}
+        <span class="lesson_num">{{ lesson.lesson_num }}.</span> {{ lesson.title }}
+      {% else %}
+      <a href="{{ lesson.url }}">
+        <span class="lesson_num">{{ lesson.lesson_num }}.</span> {{ lesson.title }}
+      </a>
+      {% endif %}
+    </h3>
+    <!--<p class="lesson-description">{{ lesson.lead }}</p>-->
     <hr>
     </li>
+    {% endif %}
   {% endfor %}
-  
-  
-  
-</ul>
-
-
-<a href="#">
-  <img src="img.jpg">
-</a>
+  </ul>
+{% endfor %}
