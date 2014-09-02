@@ -15,7 +15,7 @@ Throughout the course, you will work through the **Web Fundamentals** Track on C
 
 ### Introduction to HTML
 
-*   [HTML Basics](http://www.codecademy.com/courses/web-beginner-en-HZA3b)
+*   [HTML Basics](http://www.codecademy.com/courses/web-beginner-en-HZA3b) (Due Wednesday September 3, 2014)
 *   [Project: Build Your Own Webpage](http://www.codecademy.com/courses/web-beginner-en-LceTK)
 
 ### HTML Structure: Using Lists
