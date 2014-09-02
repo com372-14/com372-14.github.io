@@ -32,7 +32,7 @@ I would encourage you to complete this check-in as you read through the assigned
 
 ### Due Date
 
-This is due Wednesday, September 3, at the beginning of class.
+
 
 ### Delivery 
 
