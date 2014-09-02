@@ -143,7 +143,7 @@ A very basic HTML page:
 
 ## Homework
 
-### Project 1 - Using HTML to Structure Text
+<!--### Project 1 - Using HTML to Structure Text
 
 1. Complete Project 1.  The instructions are in the project page.
-2. As the course moves on, we will add project information to our *Project Portfolio*.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.
+2. As the course moves on, we will add project information to our *Project Portfolio*.  This is your first entry into your Project Portfolio.  Bring your completed project to class on Wednesday, and we will walk through adding it to your Project Portfolio using Github.-->
