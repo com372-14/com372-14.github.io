@@ -20,7 +20,7 @@ You will create an HTML5 web page with a recipe.
 
 5) Your document should validate.
 
-6) Your work should be synced to GitHub by the start of class on Thursday, September 18. If you need to use a lab computer to sync, we will have time for that at beginning of class.
+6) Your work should be synced to GitHub <!--by the start of class on Thursday, September 18. If you need to use a lab computer to sync, we will have time for that at beginning of class.-->
 
 7) I would encourage you to work through this as you revisit the readings from Learning Web Design; markup makes more sense when applied to a specific task.
 
