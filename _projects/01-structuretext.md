@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Project 1 - Using HTML to Structure Text
-duedate: Wednesday, September 3, 2014
+duedate: 
 ---
 
 ## What You'll Learn
