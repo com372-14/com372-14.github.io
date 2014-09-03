@@ -14,10 +14,10 @@ _Both items are due at the start of class_
 - Read [A Brief History of Markup](http://alistapart.com/article/a-brief-history-of-markup)
 - Complete first lesson in the CodeCademy [Web Fundamentals](http://www.codecademy.com/tracks/web) track.  Email me the screenshot of your completed lesson.
 
-<!--## Presentation
+## Presentation
 
-<iframe src="https://docs.google.com/presentation/embed?id=1_CGlKMEB6eVm5em64rxw1eoiiZHxjkbRlaVXRwyIolw&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
--->
+<iframe src="https://docs.google.com/presentation/embed?id=1nQv1jYSMklzrxCKG_Cn6HST20GDWJ3uSCUT-CjWNaUk&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
+
 
 ## More Common HTML Terms
   
