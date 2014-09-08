@@ -22,6 +22,8 @@ dontlink: false
 
 <iframe src="https://docs.google.com/presentation/embed?id=1BpDLWXJB5VhEAlA-bdg5vYH_w4QnqRs6yYqCnIlnfps&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
 
+### [Git for Humans full presentation](https://www.youtube.com/watch?v=gp6v7AXQQTY) - I presented some of the slides from this in class.
+
 ## Lesson Breakdown
 
 1. Structure-making elements - div, span
