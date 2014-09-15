@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Styling</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Styling</h1>
+  <p class="date">Lesson Number 09, September 15, 2014</p>
+  <div id="post">
+  <p class="lead"></p>
+    <h2 id="due-for-this-class">Due For This Class</h2>
+
+<ul>
+<li><a href="http://com372-14.github.io/projects/02-linking.html">Project #2 (recipe - markup &amp; images)</a>
+(don&#39;t forget to submit to github!)</li>
+</ul>
+
+<h2 id="lesson-breakdown">Lesson Breakdown</h2>
+
+<ol>
+<li>HTML Review</li>
+<li>Hands-on with CSS</li>
+</ol>
+
+<h2 id="html-review">HTML Review</h2>
+
+<h3 id="starter-html-template">Starter HTML Template</h3>
+
+<p>A very basic HTML page:</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>PAGE TITLE<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- DON&#39;T FORGET THE TITLE --&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  <span class="c">&lt;!-- PLACE ALL OF YOUR PAGE CONTENT BELOW HERE --&gt;</span>
+
+  <span class="nt">&lt;h1&gt;</span>This is my heading<span class="nt">&lt;/h1&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>This is a paragraph<span class="nt">&lt;/p&gt;</span> 
+
+  <span class="c">&lt;!-- AND ABOVE HERE --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+<p><strong><a href="https://github.com/com372-14/page-template">Our starter HTML template is available to download on Github</a>.</strong></p>
+
+<h3 id="&lt;title&gt;-vs-title"><code>&lt;title&gt;</code> vs Title</h3>
+
+<p>Only the content within the <code>&lt;body&gt;</code> tag will be shown to the end user.</p>
+
+<p>Your <code>&lt;title&gt;</code> tag will only be shown in search results and in the top of the tab of your browser.</p>
+
+<p>When writing HTML pages, we may have to repeat ourselves - for example, if we are marking up an article we have written that we want to call &quot;When Pigs Fly&quot;, we may want to include the title of the article as both our <code>&lt;title&gt;</code> tag and as the first <code>&lt;h1&gt;</code> on the page.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;utf-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>When Pigs Fly<span class="nt">&lt;/title&gt;</span> <span class="c">&lt;!-- DON&#39;T FORGET THE TITLE --&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  <span class="c">&lt;!-- PLACE ALL OF YOUR PAGE CONTENT BELOW HERE --&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>When Pigs Fly<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;h2&gt;</span>an article by Kelly Anne Pipe<span class="nt">&lt;/h2&gt;</span>
+
+  <span class="nt">&lt;p&gt;</span>This is a paragraph<span class="nt">&lt;/p&gt;</span> 
+
+  <span class="c">&lt;!-- AND ABOVE HERE --&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+<h3 id="&lt;head&gt;-and-&lt;body&gt;"><code>&lt;head&gt;</code> and <code>&lt;body&gt;</code></h3>
+
+<p>Your <code>&lt;head&gt;</code> tag includes information about the page and how to render it.  Information in the <code>&lt;head&gt;</code> will not be seen by the end user.</p>
+
+<p>The following tags can go inside of the <code>&lt;head&gt;</code>.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;title&gt;
+&lt;style&gt;
+&lt;base&gt;
+&lt;link&gt;
+&lt;meta&gt;
+&lt;script&gt;
+&lt;noscript&gt;
+</code></pre></div>
+<p>If you are marking up content with things like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, etc, this content must go after you close your <code>&lt;head&gt;</code> tag and have opened a <code>&lt;body&gt;</code> tag.</p>
+
+<p>Your <code>&lt;body&gt;</code> is your wrapper for all content that should be seen by the end user.</p>
+
+<p>Your <strong>last two things</strong> on every page should be a CLOSE for your <code>&lt;body&gt;</code> tag and a CLOSE for your <code>&lt;html&gt;</code> tag.</p>
+
+<h2 id="what-is-css?">What is CSS?</h2>
+
+<p>Cascading Style Sheets, most of the time abbreviated as CSS, is a stylesheet language used to describe the presentation of a document written in HTML or XML (including various XML languages like SVG or XHTML). CSS describes how the structured element must be rendered on screen, on paper, in speech, or on other media.</p>
+
+<p>CSS is one of the core languages of the open web and has a standardized W3C specification. Developed in levels, CSS1 is now obsolete, CSS2.1 a recommendation and CSS3, now split into smaller modules, is progressing on the standard track.</p>
+
+<p>&quot;What is CSS&quot; is from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla&#39;s Developer Network Documentation</a></p>
+
+<h3 id="style-rules">Style Rules</h3>
+
+<p>CSS styles are applied using a system of <strong>rules</strong> (or rulesets). The exact syntax for CSS rules is described below. CSS rules:</p>
+
+<ol>
+<li>Identify which HTML elements should have styling applied</li>
+<li>Specify the &quot;properties&quot; (color, size, font, and other attributes) of the styled HTML elements</li>
+<li>Contain the values that control the appearance of each property</li>
+</ol>
+
+<p>For example, a CSS rule might state:</p>
+
+<blockquote>I want to find every <code>&lt;h2&gt;</code> element on a page, and change the color of text surrounded by these tags to green.</blockquote>
+
+<p>or</p>
+
+<blockquote>I want to find every <code>&lt;p&gt;</code> element with a class attribute of author-name, set the background color to red, resize the text to twice the size of normal paragraph text, and add 10 pixels of spacing around each instance.</blockquote>
+
+<h3 id="defining-style-rules">Defining Style Rules</h3>
+
+<p>Style rules can operate on different sets of items, selected in different ways. For example, they can be directly applied to HTML elements (body, article, nav, list, p, em, strong, etc.), or they can be applied to any elements with custom made classes or IDs . This is the basic form:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
+  <span class="n">property1</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
+  <span class="n">property2</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
+  <span class="n">property3</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The important parts are as follows:</p>
+
+<ul>
+<li><p>The <strong>selector</strong> identifies which HTML elements are affected by the rule, using actual element names, such as <body>, or other identifiers such as class attribute values. When applied to the actual element names, selector is simply replaced by the name of that block. For classes the syntax is <strong>.classname</strong>, for IDs, <strong>#idname</strong>.</p></li>
+<li><p>The curly braces contain the <strong>property/value pairs</strong>, which are separated from each other by semi-colons; the properties are separated from their respective values by colons.</p></li>
+<li><p>The <strong>properties</strong> define what you want to do to the element(s) you have selected. These come in wide varieties, which can affect attributes such as text color, background color, the position of the element on the page, font type, border color and thickness, and many other appearance and layout controls.</p></li>
+<li><p>The <strong>values</strong> are the settings that specify details of each property applied to elements. The values are dependent on the property. For example, properties that affect color can use hexadecimal colors like #336699, RGB values like rgb(12,134,22) or color names like red, green, or blue. Properties that affect position, margins, width, height, and others can be measured in pixels, ems, percentages, centimeters, or other units.</p></li>
+</ul>
+
+<p>Review this specific example:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span> <span class="p">{</span>
+  <span class="k">margin</span><span class="o">:</span> <span class="m">5px</span><span class="p">;</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="n">arial</span><span class="p">;</span>
+  <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The HTML element this rule affects is <code>&lt;p&gt;</code> — every <code>&lt;p&gt;</code> in the HTML document or documents that this CSS rule is applied to will display with these styles, unless they have more specific rules also applied to them, in which case the more specific rules will override this rule. The properties affected by this rule are the margins around the paragraphs, the font of the text inside the paragraph tags, and the color of that text. The margins are set to 5 pixels, the font is set as Arial, and the color of the text is set to blue.</p>
+
+<p>A whole set of CSS rules are added to a CSS document to form a style sheet. This is the most basic syntax when writing CSS rules. Some rules are more complex, but not much — probably the coolest thing about CSS is its simplicity.</p>
+
+<p><strong>content from <a href="http://docs.webplatform.org/wiki/guides/getting_started_with_css">WebPlatform.org&#39;s Getting started with CSS</a></strong></p>
+
+<h2 id="in-class-activity">In-Class Activity</h2>
+
+<p>Let&#39;s try our hand at styling a page using CSS.</p>
+
+<ol>
+<li>Open your <strong>project-portfolio</strong> in Brackets.</li>
+<li>Create a new file and name it css-practice.html</li>
+<li>Copy and paste the HTML code from <a href="https://gist.github.com/kellygrape/bdc9b0372dfefb374739">this gist</a> into your css-practice.html file, and save it.</li>
+<li>Using the CSS selectors, attributes, and attribute values on our <a href="/lesson_files/css-practice.html">CSS Practice</a> page (also handed out in class), style the page so it looks like <a href="/lesson_files/csspractice/css-practice-final.png">the sample</a>.</li>
+</ol>
+
+<p><img src="/lesson_files/csspractice/css-practice-final.png" alt="css-practice-final" width="812" height="643"></p>
+
+<ol>
+<li>When you have finished, save this and upload it to GitHub.  Link it from your main index.html in your project-portfolio (also commit that change and be sure to sync with GitHub).</li>
+<li>Let me know when you are done!</li>
+</ol>
+
+<p>If you are finished before the end of class:</p>
+
+<ol>
+<li>Try to add classes to your elements.  How could we make the different H2s have different colors?</li>
+<li>Read this <a href="http://css-tricks.com/un-bloat-css-by-using-multiple-classes/">CSS Tricks</a> article about using multiple classes on a single element.  How could we avoid repeating ourselves with our font-family declarations?</li>
+<li>Begin reading the <a href="http://alistapart.com/article/dao/">homework assignment</a></li>
+<li>Start working on Codecademy #3, <a href="http://www.codecademy.com/en/tracks/web">HTML Basics II</a> (this is due next Monday)</li>
+</ol>
+
+<h2 id="homework">Homework</h2>
+
+<ul>
+<li>Read <a href="http://alistapart.com/article/dao/">The Dao of Web Design</a>. Though this article is 13 years old, it is still considered a &quot;classic&quot; of web design writing and is essential reading for any web designer.</li>
+<li>Read pages 207 - 224 in your HTML &amp; CSS book.</li>
+</ul>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>
