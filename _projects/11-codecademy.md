@@ -16,22 +16,22 @@ Throughout the course, you will work through the **Web Fundamentals** Track on C
 ### Introduction to HTML
 
 *   [HTML Basics](http://www.codecademy.com/courses/web-beginner-en-HZA3b) (Due Wednesday September 3, 2014)
-*   [Project: Build Your Own Webpage](http://www.codecademy.com/courses/web-beginner-en-LceTK)
+*   [Project: Build Your Own Webpage](http://www.codecademy.com/courses/web-beginner-en-LceTK) (Due Friday, September 5, 2014)
 
 ### HTML Structure: Using Lists
 
-*   [HTML Basics II](http://www.codecademy.com/courses/web-beginner-en-y2Yjd)
-*   [Project: Social Networking Profile](http://www.codecademy.com/courses/web-beginner-en-9x6JW)
+*   [HTML Basics II](http://www.codecademy.com/courses/web-beginner-en-y2Yjd) (Due Monday, September 22, 2014)
+*   [Project: Social Networking Profile](http://www.codecademy.com/courses/web-beginner-en-9x6JW) (Due Monday, September 22, 2014)
 
 ### HTML Structure: Tables, Divs, and Spans
 
-*   [HTML Basics III](http://www.codecademy.com/courses/web-beginner-en-f8mcL)
-*   [Project: Clickable Photo Page](http://www.codecademy.com/courses/web-beginner-en-zrZ6c)
+*   [HTML Basics III](http://www.codecademy.com/courses/web-beginner-en-f8mcL) (Due Monday, October 6, 2014)
+*   [Project: Clickable Photo Page](http://www.codecademy.com/courses/web-beginner-en-zrZ6c) (Due Monday, October 6, 2014)
 
 ### Introduction to CSS
 
-*   [CSS: An Overview](http://www.codecademy.com/courses/web-beginner-en-TlhFi)
-*   [Project: Design a Button for your Website](http://www.codecademy.com/courses/web-beginner-en-UuBLw)
+*   [CSS: An Overview](http://www.codecademy.com/courses/web-beginner-en-TlhFi) (Due Wednesday, October 15, 2014)
+*   [Project: Design a Button for your Website](http://www.codecademy.com/courses/web-beginner-en-UuBLw) (Due Wednesday, October 15, 2014)
 
 ### CSS Classes and IDs
 
