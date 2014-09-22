@@ -49,9 +49,9 @@ For my final project, I hope to develop a portfolio that will allow me to showca
 
 ### Audiences
 
-1) Future Employers
+1. Future Employers
   - This audience is (describe the audience).  They will find my site (how?).  I hope I can communicate (what?) to them.
-2) Potential Web Design Clients
+2. Potential Web Design Clients
   - This audience is (describe the audience).  They will find my site (how?).  I hope I can communicate (what?) to them.
-3) Potential Photography Clients
+3. Potential Photography Clients
   - This audience is (describe the audience).  They will find my site (how?).  I hope I can communicate (what?) to them.
