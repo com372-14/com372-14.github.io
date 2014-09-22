@@ -21,33 +21,37 @@ dontlink: false
 2. How do you start planning a website?
 3. Planning content and design
 
+
+## Presentation
+
+<iframe src="https://docs.google.com/presentation/embed?id=1_ohkXZSwh5Z87E1cIscAeRTb6Nowsijj6bFkJ1R8Ij0&amp;start=false&amp;loop=false&amp; frameborder="0" width="520" height="405"></iframe>
+
 ## Shared Resources
 
 - For students who have been having difficulty with **Brackets**, you can try another code editor.  I've put together a [tutorial on using Sublime Text](/sublimetext.html), if you would like to try this as an alternative.
-## In-Class Activity
-
-1. Open your **project-portfolio** in Brackets.
-2. Open your index.html file.
-3. In your CSS folder, create a new file named *style.css*
-4. Link the your style.css file to your index.html file by putting the following line in the <head>
-```<link rel="stylesheet" href="css/style.css">```
-5. Open your **style.css** file.
-6. Create a comment at the top of your CSS file.  Write your name, and then put the hex codes for your three colors in the comment (this will help you to reference them later).
-7. Choose one of your colors, preferably one that is highly saturated.
-8. Set this to be the color of all your links and h1's.
-9. Set one of your secondary colors to be the color of your h2s.
-10. On your index.html file, create a h1 and make sure that it has your name and "Project Portfolio"
-11. Create an h2 under that and make the content "Classwork and Projects for COM372"
-12. Add a paragraph of text under that.  Write whatever you want.  You can search google for Random Text and get a block of random text.
-13. Under the paragraph, create a div and add the class *color-squares*
-14. Create three divs within *color-squares*.  Write the names of your colors within them.
-15. Let's walk through styling these together.
-
-If you are finished before the end of class:
-
-1. Try to center the text in your header
-
 
 ## Homework
 
 - Read [Clear and Effective Communications in Web Design](http://www.smashingmagazine.com/2009/02/03/clear-and-effective-communication-in-web-design/).  This is a long article.  I will be talking about it and asking you questions about it in Wednesday's class.
+- Read the chapter I handed out in class.  Start thinking about your final project.
+- Create a document (word, text, google docs) that outlines the following
+  - An idea of what your final project will be (about 2 sentences)
+  - Potential audiences for your final site (at least three audiences)
+  - What you want to communicate to each of the audiences
+  
+So, your final document should look something like this:
+
+
+## Kelly Anne's Final Project
+### Planning Document
+
+For my final project, I hope to develop a portfolio that will allow me to showcase some of my best photography and writing that I have created in the past year.  This content is important to me and I think it will allow me to demonstrate my talent.
+
+### Audiences
+
+1) Future Employers
+  - This audience is (describe the audience).  They will find my site (how?).  I hope I can communicate (what?) to them.
+2) Potential Web Design Clients
+  - This audience is (describe the audience).  They will find my site (how?).  I hope I can communicate (what?) to them.
+3) Potential Photography Clients
+  - This audience is (describe the audience).  They will find my site (how?).  I hope I can communicate (what?) to them.
