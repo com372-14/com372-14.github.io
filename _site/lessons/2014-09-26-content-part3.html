@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Advanced HTML & CSS</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Advanced HTML & CSS</h1>
+  <p class="date">Lesson Number 14, September 26, 2014</p>
+  <div id="post">
+  <p class="lead"></p>
+    <h2 id="due-for-this-class">Due For This Class</h2>
+
+<ul>
+<li>Read Chapter 8 in <strong>Learning Web Design</strong> (page 133-146)</li>
+<li>Bring <strong>two</strong> copies of your resume to class
+
+<ul>
+<li>one should be printed</li>
+<li>the other should be digital (so, the word document / google docs / plain text equivalent of what you printed)</li>
+</ul></li>
+</ul>
+
+<h2 id="lesson-breakdown">Lesson Breakdown</h2>
+
+<ol>
+<li>Web Design Process Final Steps</li>
+<li>Introduction to tables</li>
+<li>From Content to Layout - Activity</li>
+</ol>
+
+<h2 id="activity">Activity</h2>
+
+<p>We are going to work through coding our resumes.</p>
+
+<div class="activity">
+
+<ol>
+<li>In your project-portfolio folder, create a new file and name it <strong>resume.html</strong>.  Open this file and begin editing it.</li>
+<li>Create the basic structure of an HTML document
+    <div class="note">
+    <h3>How?</h3>
+    <p>Remember, you can go to our <a href="/resources">resources</a> page and use the <a href="https://github.com/com372-14/page-template">"Basic HTML Template"</a></p>
+    </div>
+</li>
+  
+<li>In the css folder of your project-portfolio, create a new stylesheet to use on your resume.  Name it <strong>resume.css</strong></li>
+<li>Link your <strong>resume.css</strong> to your <strong>resume.html</strong>.
+  <div class="note">
+    <h3>How?</h3>
+    <p>Place the following code in the `<head>` of your document</p>
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/resume.css"</span><span class="nt">&gt;</span>
+  </code></pre>
+  </div>
+</li>
+
+<li>Take a look at your printed resume.  Think about how you could code this.  What elements would be your headings?  What elements would be lists?  Using a pencil or pen, do some basic markup on your printed resume.</li>
+
+<li>Still using your printed resume - are there specific sections?  For example, do you see a clear header, a footer (maybe not), areas that seem to belong together?  Think of how you could mark the content in these sections to allow them to be styled in a special way.
+  <div class="note">
+    <h3>How?</h3>
+    <p>We can use html to mark up sections, using </p>
+    <p><code>&lt;div&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;aside&gt;</code></p>
+    <p>Read more about semantic elements at <a href="http://alistapart.com/article/previewofhtml5">A List Apart</a> or <a href="http://blog.teamtreehouse.com/use-html5-sectioning-elements">Team Treehouse</a></p>
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"education"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h2&gt;</span>Education<span class="nt">&lt;/h2&gt;</span>
+  <span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Saint Joseph's University, 2010<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Fairfield University, 2006<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+  </div>
+
+</li>
+
+<li>Once you are happy with how it looks, begin creating styles for your resume.  At the very least, add a background color and color your h1, h2, h3, h4... tags</li>
+
+<li>Save and add a link to this in your main project portfolio page</li>
+</ol>
+
+
+</div>
+  
+
+<h2 id="homework">Homework</h2>
+
+<h3 id="read">Read</h3>
+
+<ul>
+<li>Read through <a href="https://www.hotdesign.com/seybold/everything.html">this guide about why using tables for layout is a bad idea</a>.  It was written in 2003 and presents alternatives to table-based layouts.  The audience for this site was people who were using tables for layout (which you haven&#39;t), but there is a good presentation of what using CSS for layout can look like.  We will start to use CSS for layout next week.</li>
+<li>Read through this guide to <a href="http://learn.shayhowe.com/html-css/organizing-data-with-tables/">working with tables in HTML</a>.  It&#39;s a great introduction to tables, and also talks about using styling for tables.</li>
+</ul>
+
+<h3 id="do">Do</h3>
+
+<ul>
+<li>Start working on Project #4.  It will be due next Friday (October 3, 2014)</li>
+<li>Finish coding your resume.  Upload to GitHub.</li>
+</ul>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>
