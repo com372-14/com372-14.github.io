@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Project 4 - Tables for Data (not for layout!)
-duedate:
+duedate: Friday October 3, 2014
 ---
 
 ## What You'll Learn
