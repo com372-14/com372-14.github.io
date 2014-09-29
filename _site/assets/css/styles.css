@@ -7,9 +7,20 @@ h2 {
 h3 {
   color: #00446d; }
 
+code {
+  font-size: .9em; }
+
 .duedate {
   font-size: 1.3em;
   color: #999; }
+
+.callout {
+  background-color: #FFFCEC;
+  border-left: 20px solid #FFD700;
+  padding: 10px;
+  margin: 10px 20px;
+  margin-left: -50px;
+  font-size: .85em; }
 
 .note {
   background-color: #ECF0F1;
