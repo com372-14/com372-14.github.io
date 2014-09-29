@@ -10,7 +10,7 @@ title: Home
   {% for lesson in site.lessons %}
     {% if lesson.week_num == weeks %}
     <li>
-    <h3>
+    <h3 class="lesson-title">
       <span class="lesson-date">{{ lesson.class_date }}</span>
       {% if lesson.dontlink == true %}
         <span class="lesson_num">{{ lesson.lesson_num }}.</span> {{ lesson.title }}

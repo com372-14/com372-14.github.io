@@ -10,11 +10,15 @@ dontlink: false
 
 ## Due For This Class
 
+- Start working on Project #4.  It will be due next Friday (October 3, 2014)
+- Finish coding your resume.  Upload to GitHub.
+
 ## Lesson
 
 1. Combining Selectors
 2. Spacing within selectors
-3. Layering styles (btw, btw + btn-danger) … use the color squares for this.
+3. Layering styles (btn, btn + btn-danger)
+4. Centering things with CSS
 
 ## CSS Selectors - Review
 
@@ -186,9 +190,76 @@ p.highlight{
 <p>A great visual example of the effect spacing has in CSS can be found at <a href="http://css-tricks.com/whats-the-difference/">CSS Tricks</a></p>
 </div>
 
+## Centering Things with CSS
 
-## Lesson Heading
-  
+One of the first things that I've noticed that you are starting to try with your styles is **centering** (with varying degrees of success). Centering is a common task in CSS.
+
+### Centering Lines of Text
+
+This is the most common - and the easiest - type of centering.  The CSS is as follows:
+
+```css
+p{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+header{
+  text-align: center;
+}
+```
+
+With this styling, the text in the selected element will be centered between its margins.
+
+You may wish to target certain portions of a site to be centered - for example, you might want your h1 and h2 in your header to be centered, but not your h1 or h2 on the rest of the site.
+
+```html
+
+<style>
+header h1{
+  text-align: center;
+}
+.site-subtitle{
+  text-align: center;
+}
+</style>
+...
+
+<header>
+  <h1>This text will be centered!</h1>
+  <h2>This text will not be centered.</h2>
+</header>
+
+<h1>This text will not be centered.</h1>
+<h2 class="site-subtitle">This text will be centered</h2>
+
+```
+
+### Centering Blocks
+
+Sometimes you don't want the text _within_ a block to be centered, you want the _actual block_ to be centered on the page.  We can accomplish this by making sure of the two following things:
+
+- the block must have a set width (be less than the width of the page, or the width of the parent element)
+- the block must have equal left and right margins
+
+We can set the left and right margins to be equal by using the following code:
+
+```css
+.branding {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+## In-Class Activity - Centering Blocks
+
+<div class="activity">
+{% capture my_include %}{% include activities/15centeringblocks.md %}{% endcapture %}
+{{ my_include | markdownify }}
+</div>
+
 ## Homework
 
 1. Make sure your project-portfolio index.html has the following features:

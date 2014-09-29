@@ -1,8 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
 h1 {
-  color: #94596d; }
+  color: #345d90;
+  font-family: "Francois One", sans-serif;
+  font-weight: normal; }
 
 h2 {
-  color: #689450; }
+  color: #689450;
+  font-family: "Francois One", sans-serif;
+  font-weight: normal; }
 
 h3 {
   color: #00446d; }
@@ -91,19 +96,20 @@ a {
   -moz-transition: .1s;
   transition: .1s; }
   a:link, a:visited {
-    color: #996172;
+    color: #bc3d41;
     font-weight: 600;
     text-decoration: none; }
   a:hover, a:active, a:focus {
     opacity: .9;
-    border-bottom: 2px solid #e05c4e; }
+    border-bottom: 2px solid #bc3d41; }
 
 /*
 Header
 --------------------------- */
 .site-header {
-  background: #54333e;
-  padding: 15px; }
+  background: black;
+  position: relative;
+  text-align: center; }
   .site-header a:link,
   .site-header a:visited {
     color: #eceeed;
@@ -111,34 +117,30 @@ Header
     text-decoration: none; }
     .site-header a:link .fa,
     .site-header a:visited .fa {
-      color: #e05c4e;
-      font-size: 1.2em; }
+      color: #769dce;
+      font-size: 1.2em;
+      margin-right: 5px; }
   .site-header a:hover,
   .site-header a:active,
   .site-header a:focus {
-    border-bottom: 2px solid #e05c4e; }
-
-.site-title a:hover,
-.site-title a:active,
-.site-title a:focus {
-  color: #eceeed;
-  border-bottom: none; }
+    border-bottom: 2px solid #769dce; }
 
 .subtitle {
   font-weight: 100;
   text-transform: uppercase; }
 
 .site-title {
-  margin: 5px;
-  font-size: 1.5em;
-  line-height: 56px;
-  /* height of header */
-  text-align: center; }
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 4em; }
+  .site-title a:hover, .site-title a:focus, .site-title a:active {
+    color: #eceeed;
+    border-bottom: none; }
 
 .site-nav {
-  min-width: 50%;
-  float: right;
-  text-align: right; }
+  text-align: center;
+  margin: 20px 0; }
 
 .nav-list li {
   display: inline;
@@ -156,6 +158,9 @@ Home Page
   font-size: .75em;
   margin-right: 10px;
   color: #999; }
+
+.lesson-title {
+  color: #9b9689; }
 
 /*
 Posts/Lessons

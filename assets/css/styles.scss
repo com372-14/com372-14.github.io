@@ -32,13 +32,13 @@ a{
   -moz-transition: .1s;
   transition: .1s;
   &:link, &:visited{
-    color: #996172;
+    color: $fourth-color;
     font-weight: 600;
     text-decoration: none;
   }
   &:hover, &:active, &:focus{
     opacity: .9;
-    border-bottom: 2px solid rgb(224, 92, 78);
+    border-bottom: 2px solid $fourth-color;
   }
 }
 
@@ -47,37 +47,29 @@ Header
 --------------------------- */
 
 .site-header {
-  background: darken($main-color, 20%);
-  padding: 15px;
+  background: darken($main-color, 50%);
+  position: relative;
+  text-align: center;
   a:link,
   a:visited {
     color: #eceeed;
     font-weight: 600;
     text-decoration: none;
-    .fa{
-      color: rgb(224, 92, 78);
+    .fa{ //icons
+      color: lighten($main-color, 25%);
       font-size: 1.2em;
+      margin-right: 5px;
     }
   }
   
   a:hover,
   a:active,
   a:focus {
-    border-bottom: 2px solid rgb(224, 92, 78);
+    border-bottom: 2px solid lighten($main-color, 25%);
   }
   
 
 }
-
-.site-title a:hover,
-.site-title a:active,
-.site-title a:focus {
-  color: #eceeed;
-  border-bottom: none;
-}
-
-
-
 
 .subtitle {
   font-weight: 100;
@@ -85,16 +77,21 @@ Header
 }
 
 .site-title {
-  margin: 5px;
-  font-size: 1.5em;
-  line-height: 56px; /* height of header */
-  text-align:center;
+  font-size: 2em;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 4em;
+  a{
+    &:hover, &:focus, &:active{
+      color: #eceeed;
+      border-bottom: none;
+    }
+  }
 }
 
 .site-nav {
-  min-width: 50%;
-  float: right;
-  text-align: right;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .nav-list li {
@@ -117,6 +114,9 @@ Home Page
   font-size: .75em;
   margin-right: 10px;
   color: #999;
+}
+.lesson-title {
+  color: $unlinked; // make the unlinked lesson titles grey
 }
 
 

@@ -40,12 +40,18 @@
   <p class="lead"></p>
     <h2 id="due-for-this-class">Due For This Class</h2>
 
+<ul>
+<li>Start working on Project #4.  It will be due next Friday (October 3, 2014)</li>
+<li>Finish coding your resume.  Upload to GitHub.</li>
+</ul>
+
 <h2 id="lesson">Lesson</h2>
 
 <ol>
 <li>Combining Selectors</li>
 <li>Spacing within selectors</li>
-<li>Layering styles (btw, btw + btn-danger) … use the color squares for this.</li>
+<li>Layering styles (btn, btn + btn-danger)</li>
+<li>Centering things with CSS</li>
 </ol>
 
 <h2 id="css-selectors---review">CSS Selectors - Review</h2>
@@ -178,7 +184,134 @@
 <p>A great visual example of the effect spacing has in CSS can be found at <a href="http://css-tricks.com/whats-the-difference/">CSS Tricks</a></p>
 </div>
 
-<h2 id="lesson-heading">Lesson Heading</h2>
+<h2 id="centering-things-with-css">Centering Things with CSS</h2>
+
+<p>One of the first things that I&#39;ve noticed that you are starting to try with your styles is <strong>centering</strong> (with varying degrees of success). Centering is a common task in CSS.</p>
+
+<h3 id="centering-lines-of-text">Centering Lines of Text</h3>
+
+<p>This is the most common - and the easiest - type of centering.  The CSS is as follows:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span><span class="p">{</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">h1</span><span class="p">{</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">header</span><span class="p">{</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>With this styling, the text in the selected element will be centered between its margins.</p>
+
+<p>You may wish to target certain portions of a site to be centered - for example, you might want your h1 and h2 in your header to be centered, but not your h1 or h2 on the rest of the site.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;style&gt;</span>
+<span class="nt">header</span> <span class="nt">h1</span><span class="p">{</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.site-subtitle</span><span class="p">{</span>
+  <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">&lt;/style&gt;</span>
+...
+
+<span class="nt">&lt;header&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>This text will be centered!<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;h2&gt;</span>This text will not be centered.<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;/header&gt;</span>
+
+<span class="nt">&lt;h1&gt;</span>This text will not be centered.<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2</span> <span class="na">class=</span><span class="s">&quot;site-subtitle&quot;</span><span class="nt">&gt;</span>This text will be centered<span class="nt">&lt;/h2&gt;</span>
+</code></pre></div>
+<h3 id="centering-blocks">Centering Blocks</h3>
+
+<p>Sometimes you don&#39;t want the text <em>within</em> a block to be centered, you want the <em>actual block</em> to be centered on the page.  We can accomplish this by making sure of the two following things:</p>
+
+<ul>
+<li>the block must have a set width (be less than the width of the page, or the width of the parent element)</li>
+<li>the block must have equal left and right margins</li>
+</ul>
+
+<p>We can set the left and right margins to be equal by using the following code:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.branding</span> <span class="p">{</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span>
+  <span class="k">margin-left</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">margin-right</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="in-class-activity---centering-blocks">In-Class Activity - Centering Blocks</h2>
+
+<div class="activity">
+
+<ol>
+<li>Open your <strong>project-portfolio</strong> in Brackets.  We will be editing your <em>index.html</em> file, so double-click to open that and edit it.</li>
+<li><p>At the top of your <strong>index.html</strong> file, you should have the following code:
+<div class="note">
+<p><strong>Your index.html should now have at least the following content.</strong></p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+<span class="nt">&lt;title&gt;</span>MYNAME Project Portfolio<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;css/style.css&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;h1&gt;</span>MYNAME&#39;s Project Portfolio<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>Classwork and Projects for COM372<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;p&gt;</span>A paragraph of random text<span class="nt">&lt;/p&gt;</span>
+..... <span class="c">&lt;!-- you shouldn&#39;t have dots here, this is just a note to show the page goes on--&gt;</span>
+</code></pre></div>
+</div></p></li>
+<li><p>You should also have a <strong>style.css</strong> file created in your css folder.</p></li>
+<li><p>In your <em>index.html</em>, surround the <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> at the top of the page with a <code>&lt;header&gt;</code>
+<div class="note">
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;header&gt;</span>
+<span class="nt">&lt;h1&gt;</span>MYNAME&#39;s Project Portfolio<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>Classwork and Projects for COM372<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;/header&gt;</span>
+</code></pre></div>
+</div></p></li>
+<li><p>Open your <strong>style.css</strong> file.</p></li>
+<li><p>Create a style that will target the <code>&lt;header&gt;</code> and give it a background color of light grey (#dddddd), and a width of 800px.
+<div class="note">
+<p><strong>How?</strong></p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="p">{</span>
+<span class="k">background-color</span><span class="o">:</span> <span class="m">#dddddd</span><span class="p">;</span>
+<span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div></p></li>
+<li><p>Save your <code>index.html</code> and your <code>style.css</code>, and open your <code>index.html</code> using livepreview.  You should see that your header doesn&#39;t take up the whole width of the page anymore - but it&#39;s not centered yet!</p></li>
+<li><p>Let&#39;s center the header - we want to center the <strong>block itself</strong>, not just the text within it.
+<div class="note">
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="p">{</span>
+<span class="k">background-color</span><span class="o">:</span> <span class="m">#dddddd</span><span class="p">;</span>
+<span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span>
+<span class="k">margin-left</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+<span class="k">margin-right</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div></p></li>
+</ol>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="p">{</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="m">#dddddd</span><span class="p">;</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span>
+  <span class="k">margin-left</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+  <span class="k">margin-right</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<div class="note">
+<p><strong>How?</strong></p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="p">{</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="m">#dddddd</span><span class="p">;</span>
+  <span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div>
+
+<ol>
+<li>Save your <code>index.html</code> and your <code>style.css</code>, and open your <code>index.html</code> using livepreview.  Your header should now be centered!</li>
+</ol>
+
+<p></div></p>
 
 <h2 id="homework">Homework</h2>
 

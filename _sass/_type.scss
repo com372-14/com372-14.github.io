@@ -2,12 +2,18 @@
 // It lies in <source>/_sass, just waiting to be imported.
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
 h1{
   color: $main-color;
+  font-family: $headings-font;
+  font-weight: normal;
 }
 
 h2{
   color: $second-color;
+  font-family: $headings-font;
+  font-weight: normal;
 }
 
 h3{
