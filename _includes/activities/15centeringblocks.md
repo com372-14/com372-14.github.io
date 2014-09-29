@@ -49,22 +49,4 @@
 </code></pre></div>
 </div>
 
-```css
-header{
-  background-color: #dddddd;
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-```
-
-<div class="note">
-<p><strong>How?</strong></p>
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="p">{</span>
-  <span class="k">background-color</span><span class="o">:</span> <span class="m">#dddddd</span><span class="p">;</span>
-  <span class="k">width</span><span class="o">:</span> <span class="m">800px</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
-</div>
-
 8. Save your `index.html` and your `style.css`, and open your `index.html` using livepreview.  Your header should now be centered!
