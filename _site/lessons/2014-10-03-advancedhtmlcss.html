@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>COM372-14 - Content is King</title>
+  <title>COM372-14 - Layout Practice</title>
   <meta name="author" content="COM372-14" />
   <meta name="description" content="{ site.theme.name }}" />
 
@@ -34,7 +34,7 @@
 
   <div class="container">
     <article class="lesson">
-  <h1 class="title">Content is King</h1>
+  <h1 class="title">Layout Practice</h1>
   <p class="date">Lesson Number 17, October 3, 2014</p>
   <div id="post">
   <p class="lead"></p>
@@ -75,6 +75,34 @@
 <p>The purpose of this class is for you to learn to design your own websites.  As you look around, you will no doubt find <strong>free</strong> themes and pre-styled web templates.  With the exception of CSS frameworks (which we will learn in class), using a premade <strong>theme</strong> is unacceptable for your final project.</p>
 
 <p>If you are interested in downloading a pre-built theme to play around with it and try to learn how it is built - <strong>I highly encourage this</strong>.  Tell me!  Add it to your inspiration journal!  Add it to your project portfolio!  Share what you&#39;ve built with me!  If there&#39;s a cool feature that you&#39;re trying to duplicate, I might be able to point you in a helpful direction.</p>
+
+<h2 id="css-shortcuts">CSS Shortcuts</h2>
+
+<p>I handed out a paper in the last class with shortcuts for writing common CSS things.</p>
+
+<p>When you write margins, for example, you can write the css as follows:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.element</span><span class="p">{</span>
+  <span class="k">margin-top</span><span class="o">:</span> <span class="m">5px</span><span class="p">;</span>
+  <span class="k">margin-right</span><span class="o">:</span> <span class="m">25px</span><span class="p">;</span>
+  <span class="k">margin-bottom</span><span class="o">:</span> <span class="m">35px</span><span class="p">;</span>
+  <span class="k">margin-left</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>It is easier to combine all of these into one declaration.
+<code>css
+.element{
+  margin: 5px 25px 35px 15px;
+}
+</code>
+Note, the values go clockwise - first, the top value, then right, then bottom, then left.</p>
+
+<p>You can also shorten it further, if you have all of the same values (or some of the same values).</p>
+
+<figure><img src="../lesson_files/shorthand-example.gif" alt="shorthand-example" width="630" height="243" /><figcaption><cite>from <a href="http://www.smashingmagazine.com/2008/08/18/7-principles-of-clean-and-optimized-css-code/">Smashing Magazine's guide to clean code</a></cite></figcaption></figure>
+
+<p>You can read more about shorthand properties at <a href="http://htmldog.com/guides/css/intermediate/shorthand/">HTML Dog</a>.</p>
+
+<p>In the CSS Tricks Almanac (and most other CSS references), you will typically find the shorthand for properties that allow it.  For example, look at the <a href="http://css-tricks.com/almanac/properties/f/font/">almanac for font</a>.</p>
 
 <h2 id="class-activity">Class Activity</h2>
 

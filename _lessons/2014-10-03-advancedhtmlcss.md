@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Content is King
+title: Layout Practice
 lesson_num: '17'
 week_num: 6
 class_date: October 3, 2014
@@ -41,6 +41,40 @@ You can now use the web clipper to document cool things you find on the web!
 The purpose of this class is for you to learn to design your own websites.  As you look around, you will no doubt find **free** themes and pre-styled web templates.  With the exception of CSS frameworks (which we will learn in class), using a premade **theme** is unacceptable for your final project.
 
 If you are interested in downloading a pre-built theme to play around with it and try to learn how it is built - **I highly encourage this**.  Tell me!  Add it to your inspiration journal!  Add it to your project portfolio!  Share what you've built with me!  If there's a cool feature that you're trying to duplicate, I might be able to point you in a helpful direction.
+
+## CSS Shortcuts
+
+I handed out a paper in the last class with shortcuts for writing common CSS things.
+
+When you write margins, for example, you can write the css as follows:
+
+```css
+.element{
+  margin-top: 5px;
+  margin-right: 25px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+}
+```
+
+It is easier to combine all of these into one declaration.
+```css
+.element{
+  margin: 5px 25px 35px 15px;
+}
+```
+Note, the values go clockwise - first, the top value, then right, then bottom, then left.
+
+You can also shorten it further, if you have all of the same values (or some of the same values).
+
+<figure><img src="../lesson_files/shorthand-example.gif" alt="shorthand-example" width="630" height="243" /><figcaption><cite>from <a href="http://www.smashingmagazine.com/2008/08/18/7-principles-of-clean-and-optimized-css-code/">Smashing Magazine's guide to clean code</a></cite></figcaption></figure>
+
+
+You can read more about shorthand properties at [HTML Dog](http://htmldog.com/guides/css/intermediate/shorthand/).
+
+In the CSS Tricks Almanac (and most other CSS references), you will typically find the shorthand for properties that allow it.  For example, look at the [almanac for font](http://css-tricks.com/almanac/properties/f/font/).
+
+
 
 ## Class Activity
 
