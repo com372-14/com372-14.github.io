@@ -58,11 +58,13 @@ When you write margins, for example, you can write the css as follows:
 ```
 
 It is easier to combine all of these into one declaration.
+
 ```css
 .element{
   margin: 5px 25px 35px 15px;
 }
 ```
+
 Note, the values go clockwise - first, the top value, then right, then bottom, then left.
 
 You can also shorten it further, if you have all of the same values (or some of the same values).
