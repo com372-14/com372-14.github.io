@@ -25,8 +25,8 @@ Throughout the course, you will work through the **Web Fundamentals** Track on C
 
 ### HTML Structure: Tables, Divs, and Spans
 
-*   [HTML Basics III](http://www.codecademy.com/courses/web-beginner-en-f8mcL) (Due Monday, October 6, 2014)
-*   [Project: Clickable Photo Page](http://www.codecademy.com/courses/web-beginner-en-zrZ6c) (Due Monday, October 6, 2014)
+*   [HTML Basics III](http://www.codecademy.com/courses/web-beginner-en-f8mcL) (Due Monday, October 8, 2014)
+*   [Project: Clickable Photo Page](http://www.codecademy.com/courses/web-beginner-en-zrZ6c) (Due Monday, October 8, 2014)
 
 ### Introduction to CSS
 

@@ -72,6 +72,10 @@ code {
   height: 1.25em;
   line-height: 1.25em; }
 
+.activity img {
+  max-width: 100%;
+  height: auto; }
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

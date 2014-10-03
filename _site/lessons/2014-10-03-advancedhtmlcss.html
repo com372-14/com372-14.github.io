@@ -40,11 +40,102 @@
   <p class="lead"></p>
     <h2 id="due-for-this-class">Due For This Class</h2>
 
-<h2 id="presentation">Presentation</h2>
+<ol>
+<li><a href="http://com372-14.github.io/projects/04-tables.html">Project #4</a></li>
+<li>Work through the first 13 (<a href="http://learnlayout.com/display.html">Learn CSS Layout</a> lessons (stop after you have read the <strong>percent width</strong> page).</li>
+</ol>
 
-<h2 id="lesson-heading">Lesson Heading</h2>
+<h2 id="time-to-get-inspired">Time to Get Inspired</h2>
+
+<p>As the course goes on, I will be asking you to start marking things you find interesting on the web.  For example, you might want to save designs you find especially cool, or articles you loved, or photos you wanted to use.</p>
+
+<p>Everyone in the class will need to sign up for an <a href="https://www.evernote.com/">Evernote</a> account.</p>
+
+<p>Then, install the <a href="https://evernote.com/webclipper/">Evernote Web Clipper</a> on your browser.</p>
+
+<p>You can now use the web clipper to document cool things you find on the web!</p>
+
+<h3 id="starting-points-for-inspiration">Starting points for inspiration</h3>
+
+<ul>
+<li><a href="http://www.awwwards.com/">Awwwards</a></li>
+<li><a href="http://dribbble.com">Dribbble</a></li>
+<li><a href="http://www.webbyawards.com/">Webby Awards</a></li>
+<li><a href="http://www.themeforest.com/">ThemeForest</a></li>
+<li><a href="http://theme.wordpress.com/">Wordpress.com Themes</a></li>
+<li><a href="http://alistapart.com/">A List Apart</a></li>
+<li><a href="http://onepagelove.com/">One Page Love</a></li>
+<li><a href="http://www.smashingmagazine.com/">Smashing Magazine</a></li>
+<li><a href="http://codepen.io/">CodePen</a> - awesome experimenty things!</li>
+<li><a href="http://tympanus.net/codrops/">CoDrops</a> - awesome tutorials, and downloadable &quot;blueprints&quot;.</li>
+</ul>
+
+<h3 id="a-note-on-templates-/-downloadable-themes">A Note on Templates / Downloadable Themes</h3>
+
+<p>The purpose of this class is for you to learn to design your own websites.  As you look around, you will no doubt find <strong>free</strong> themes and pre-styled web templates.  With the exception of CSS frameworks (which we will learn in class), using a premade <strong>theme</strong> is unacceptable for your final project.</p>
+
+<p>If you are interested in downloading a pre-built theme to play around with it and try to learn how it is built - <strong>I highly encourage this</strong>.  Tell me!  Add it to your inspiration journal!  Add it to your project portfolio!  Share what you&#39;ve built with me!  If there&#39;s a cool feature that you&#39;re trying to duplicate, I might be able to point you in a helpful direction.</p>
+
+<h2 id="class-activity">Class Activity</h2>
+
+<div class="activity">
+
+<ol>
+<li>Click <a href="https://github.com/com372-14/layout-practice">this link</a> to get to our <a href="https://github.com/com372-14/layout-practice">Layout Practice Repo</a></li>
+<li><p>Fork the repository (at the top-right of the repo, under the toolbar you should see a button for &quot;Fork&quot;)
+<div class="note">
+<p><strong>Fork?</strong></p>
+<p>Forking allows you to create your own copy of a repository.<p>
+<p><a href="https://help.github.com/articles/fork-a-repo/">Read more about forking</a></p>
+</div></p></li>
+<li><p>Clone your repository to your computer.
+<div class="note">
+<strong>How?</strong>
+<ul><li><strong>Github for Mac / Windows</strong> - click the &quot;+&quot; sign at the top-left of the window.  In the window that appears, change to the &quot;clone&quot; view.  You will see all the repositories that are part of your account.  Click on &quot;layout-practice&quot;, then clone it into your &quot;sites&quot; folder</li>
+<li><strong>SourceTree</strong> - on GitHub, go to the home page of your repository.  On the right sidebar, there is an area with a url you can use to clone the repo.  Copy this url.  Now, open SourceTree.  In the bookmarks window (before you&#39;re in your project view), the top-left icon is something that looks like a barrel with a plus-sign on it.  Click this.  Paste your URL in the first box, then choose where you would like the repository to go.</li>
+</ul>
+</div></p></li>
+<li><p>Open Brackets.  Close any of your open working projects.  Then, click the top label of the file list to change your project.
+<img src="../lesson_files/brackets-switch-projects.png" alt="brackets-switch-projects" width="717" height="320" /></p></li>
+<li><p>Choose your layout-practice folder to open in Brackets</p></li>
+<li><p>Open <code>index.html</code>.  Open this file in live preview.</p></li>
+<li><p>We want the end result of our layout to look like the photo below.
+<img src="../../lesson_files/layout.png" alt="layout" /></p></li>
+<li><p>Open your <strong>style.css</strong> file.</p></li>
+<li><p>I gave you some starter styles.  Work for the rest of the class to make your page look like the sample.  You may have to change styles, or add new declarations.</p></li>
+<li><p>First, set the <code>content-wrap</code> so that it is less than the whole width of the page and that it is centered in the middle of the page.
+<div class="note">
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">.content-wrapper</span><span class="p">{</span>
+<span class="k">width</span><span class="o">:</span> <span class="m">80%</span><span class="p">;</span>
+<span class="k">margin-left</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+<span class="k">margin-right</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div></p></li>
+<li><p>Set your <code>article</code> and <code>sidebar</code> to have widths that add up to 100%.  Float them next to each other.</p></li>
+<li><p>Don&#39;t forget - when we float divs, we need to clear the parent!  What&#39;s the parent element?  I already included the style for <code>clearfix</code> in your stylesheet.  Add this class to the parent of the floated elements.</p></li>
+<li><p>Add padding to your columns, your header, and your footer.</p></li>
+<li><p>Float your image and your figure.</p></li>
+<li><p>Change your background colors!</p></li>
+<li><p>Take a look at your page and see what you think.</p></li>
+<li><p>Uncomment the &quot;normalize.css&quot; file at the top of your index.html.  How has that changed the way your site looks?  We should use normalize in our projects to help us handle browser inconsistencies.</p></li>
+<li><p>Be sure to save your work and commit to GitHub.</p></li>
+</ol>
+
+</div>
 
 <h2 id="homework">Homework</h2>
+
+<ol>
+<li><strong>Get Inspired</strong> - start looking around on the web for things that inspire you - projects you like, screenshots of other websites, articles that interest you.  Start working on your Evernote journal.  You should continue adding to this as the semester continues.  On <strong>October 27</strong>, I will be asking you to write a brief overview of your journal, and another at finals.</li>
+<li>Complete the next two lessons in CodeCademy
+
+<ul>
+<li> <a href="http://www.codecademy.com/courses/web-beginner-en-f8mcL">HTML Basics III</a> (Due Wednesday, October 8, 2014)</li>
+<li> <a href="http://www.codecademy.com/courses/web-beginner-en-zrZ6c">Project: Clickable Photo Page</a> (Due Wednesday, October 8, 2014)</li>
+</ul></li>
+<li>Read Chapter 5 (Mini-Art School) and Chapter 7 (Type) in White Space is Not Your Enemy.</li>
+</ol>
 
   </div>
 </article>
