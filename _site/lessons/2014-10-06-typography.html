@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Typography</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Typography</h1>
+  <p class="date">Lesson Number 18, October 6, 2014</p>
+  <div id="post">
+  <p class="lead"></p>
+    <h2 id="due-for-this-class">Due For This Class</h2>
+
+<ol>
+<li><strong>Get Inspired</strong> - start looking around on the web for things that inspire you - projects you like, screenshots of other websites, articles that interest you.  Start working on your Evernote journal.  You should continue adding to this as the semester continues.  On <strong>October 27</strong>, I will be asking you to write a brief overview of your journal, and another at finals.</li>
+<li>Complete the next two lessons in CodeCademy
+
+<ul>
+<li> <a href="http://www.codecademy.com/courses/web-beginner-en-f8mcL">HTML Basics III</a> (Due Wednesday, October 8, 2014)</li>
+<li> <a href="http://www.codecademy.com/courses/web-beginner-en-zrZ6c">Project: Clickable Photo Page</a> (Due Wednesday, October 8, 2014)</li>
+</ul></li>
+<li>Read Chapter 5 (Mini-Art School) and Chapter 7 (Type) in White Space is Not Your Enemy.</li>
+</ol>
+
+<h2 id="typography-video">Typography Video</h2>
+
+<p>Let&#39;s watch this 5 minute video about typography. (<a href="https://www.youtube.com/watch?v=wOgIkxAfJsk">Click here to launch the video</a>)</p>
+
+<h2 id="css-styling-for-text">CSS Styling for Text</h2>
+
+<p>There are lots of ways to style text using CSS, more than we can cover just in this class.  We&#39;ve gone over a lot of the basics so far.</p>
+
+<h3 id="color-&amp;-size">Color &amp; Size</h3>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.myclass</span><span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">18px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><span style="color:red;font-size:18px;margin-left:30px;">Example text #1</span></p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.myclass</span><span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">2em</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><span style="color:blue;font-size:2em;margin-left:30px;">Example text #1</span></p>
+
+<h3 id="bold,-italic,-and-underline">Bold, italic, and underline</h3>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.myclass</span><span class="p">{</span>
+  <span class="k">text-decoration</span><span class="o">:</span><span class="k">underline</span><span class="p">;</span>
+  <span class="k">font-weight</span><span class="o">:</span><span class="k">bold</span><span class="p">;</span>
+  <span class="k">font-style</span><span class="o">:</span><span class="k">italic</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><span style="text-decoration:underline;font-weight:bold;font-style:italic;;margin-left:30px;">No &quot;strong&quot; or &quot;em&quot; tags needed!</span></p>
+
+<p><em>(although I&#39;m showing you how to underline here, it will CONFUSE YOUR VISITORS if you underline things that are not links.  Avoid using underlines on non-linked things)</em>_</p>
+
+<h3 id="transform">Transform</h3>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.myclass</span><span class="p">{</span>
+  <span class="k">text-transform</span><span class="o">:</span> <span class="k">uppercase</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><span style="text-transform: uppercase;padding-left:30px;">Stop typing things in all uppercase - use text transform!</span></p>
+
+<h3 id="font-family">Font Family</h3>
+
+<p>Font family is a great way to make your website look a little fancier / add some personality to your website.</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.myclass</span><span class="p">{</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>There are a number of generic font familys you should know.  Generic family names include <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code>, and <code>monospace</code>.</p>
+
+<p>You can also use named fonts.  Named fonts are read in the order they appear - the text will use the <strong>first available</strong> font from your list!  You should always include a generic font family at the end of your font stack - in case the users computer has no custom fonts installed.</p>
+
+<p>You can use any font you have on your computer, but you have to be careful because people who visit your website will also need to have that font installed to see your font.  For example, open this website on your computer.  The below text on my computer looks like it is written in a casual, handwritten font, but on your computer it will probably just be cursive.</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.myclass</span><span class="p">{</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="s1">&#39;MF Be Yourself&#39;</span><span class="o">,</span><span class="k">cursive</span><span class="p">;</span>
+  <span class="k">font-size</span><span class="o">:</span> <span class="m">3em</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><span style="font-family:'MF Be Yourself',cursive;font-size: 3em;">A Fun Font!</span></p>
+
+<h2 id="font-stacks">Font Stacks</h2>
+
+<p>As you&#39;re choosing your default fonts, it&#39;s important to try to find a font that will work for the majority of your viewers.  You can do this by creating a font stack that uses fonts that most users will have installed.</p>
+
+<p>There are some lists of great default font stacks at the website <a href="http://cssfontstack.com/">CSS Font Stack</a>.  You can read more about font stack at <a href="http://www.smashingmagazine.com/2009/09/22/complete-guide-to-css-font-stacks/">Smashing Magazine</a> - and even more at <a href="http://www.awayback.com/revised-font-stack/">A Way Back</a></p>
+
+<h2 id="activity">Activity</h2>
+
+<p>Choose a default font stack for your website, and apply it to your entire page by adding the following CSS to your <code>styles.css</code>.</p>
+
+<p>Don&#39;t forget to switch to your project portfolio folder!</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="p">{</span>
+  <span class="k">font-family</span><span class="o">:</span> <span class="o">***</span><span class="n">MY</span> <span class="n">Font</span> <span class="n">Stack</span> <span class="n">Here</span><span class="o">***</span><span class="p">;</span>
+
+<span class="p">}</span>
+</code></pre></div>
+<p>You can also play around with some different CSS text styling effects here -  <a href="http://csstxt.com/">http://csstxt.com/</a></p>
+
+<h2 id="lesson-heading">Lesson Heading</h2>
+
+<h2 id="homework">Homework</h2>
+
+<ul>
+<li><p>Read two sections from <a href="http://practicaltypography.com/">Butterick’s Practical Typography</a></p>
+
+<ul>
+<li><a href="http://practicaltypography.com/typography-in-ten-minutes.html">Typography in Ten Minutes</a></li>
+<li><a href="http://practicaltypography.com/summary-of-key-rules.html">Summary of Key Rules</a></li>
+</ul></li>
+<li><p>Read Chapter 12 of your Web Design book.</p></li>
+<li><p>Find at least five websites that you think have good type.  Add them to your inspiration journal.  Explain what you like about each site.  Share your inspiration journal with me!</p></li>
+</ul>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>
