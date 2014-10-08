@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Typography and Navigation</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Typography and Navigation</h1>
+  <p class="date">Lesson Number 19, October 8, 2014</p>
+  <div id="post">
+  <p class="lead"></p>
+    <h2 id="homework">Homework</h2>
+
+<ul>
+<li><p>Read two sections from <a href="http://practicaltypography.com/">Butterick’s Practical Typography</a></p>
+
+<ul>
+<li><a href="http://practicaltypography.com/typography-in-ten-minutes.html">Typography in Ten Minutes</a></li>
+<li><a href="http://practicaltypography.com/summary-of-key-rules.html">Summary of Key Rules</a></li>
+</ul></li>
+<li><p>Read Chapter 12 of your Web Design book.</p></li>
+<li><p>Find at least five websites that you think have good type.  Add them to your inspiration journal.  Explain what you like about each site.  Share your inspiration journal with me!</p></li>
+<li><p>Complete the next two lessons in CodeCademy</p>
+
+<ul>
+<li> <a href="http://www.codecademy.com/courses/web-beginner-en-f8mcL">HTML Basics III</a> (Due Wednesday, October 8, 2014)</li>
+<li> <a href="http://www.codecademy.com/courses/web-beginner-en-zrZ6c">Project: Clickable Photo Page</a> (Due Wednesday, October 8, 2014)</li>
+</ul></li>
+</ul>
+
+<h2 id="lesson">Lesson</h2>
+
+<ol>
+<li>Questions about type</li>
+<li>Icon fonts</li>
+<li>Pseudo-classes / Hovering things</li>
+<li>In-Class Activity</li>
+</ol>
+
+<h2 id="icon-fonts">Icon Fonts</h2>
+
+<p><a href="http://css-tricks.com/examples/IconFont/">Why are Icon Fonts Awesome?</a></p>
+
+<p>Icons are great for providing a little bit of extra visual meaning to your content.  They can provide visual interest, and allow for easier communication with your audience.</p>
+
+<p>The overuse of icons should be avoided, and you should take care that your icons are communicating the correct meaning to the audience.  Text labels should accompany icons when possible.</p>
+
+<p>Here are four articles about icon usability</p>
+
+<ul>
+<li><a href="http://www.nngroup.com/articles/icon-usability/">Icon Usability on Nielsen</a></li>
+<li><a href="http://webdesign.tutsplus.com/articles/use-and-abuse-of-icons-in-the-modern-age--webdesign-17064">Use and Abuse of Icons in the Modern Age</a></li>
+<li><a href="http://uxmyths.com/post/715009009/myth-icons-enhance-usability">UX Myths - Myth #13: Icons enhance usability</a></li>
+<li><a href="http://www.vanseodesign.com/web-design/icon-fonts/">Why And How To Use Icon Fonts</a></li>
+</ul>
+
+<h3 id="how-to-use-icons">How to Use Icons</h3>
+
+<p>Traditionally, images have been used as icons on the web.  If you visit sites like <a href="https://www.iconfinder.com/">IconFinder</a> or simply google &quot;web icons&quot; you will find lots of different icons that you can use in your designs.  These types of icons would be included on your site exactly like you would include an image.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.facebook.com&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;img/fbicon.png&quot;</span> <span class="na">alt=</span><span class="s">&quot;Facebook Icon&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
+<p><a href="http://www.facebook.com"><img src="/lesson_files/facebooksheep.png" alt="Facebook Icon" width="64" height="64" /></a></p>
+
+<h3 id="alternate---using-image-fonts">Alternate - using image fonts</h3>
+
+<p>Using image as icons has lots of pros (you can get really custom with your icons, do cool things), but also some drawbacks.  What if you want a larger icon?  You would have to find some way to enlarge your image.  What if you want to change the color?  You would have to recreate your image.</p>
+
+<p>With modern browsers we have the option of using icon fonts.  Icon fonts allow you to highly customize your icons, changing size and color - they act a lot like text on your website!</p>
+
+<h3 id="using-icon-fonts">Using Icon Fonts</h3>
+
+<p>I like using FontAwesome for my icon fonts.  I find that most of the icons I want to use are included, and it&#39;s really easy to add to projects.  You&#39;ll see that we actually use these in the Nest, and on some of SJU&#39;s other websites.</p>
+
+<p><a href="http://fontawesome.io/">FontAwesome</a></p>
+
+<p>You can use FontAwesome without having to download anything. Simply follow the instructions on FontAwesome&#39;s site.</p>
+
+<h3 id="custom-icon-fonts">Custom Icon Fonts</h3>
+
+<p>Using a library like FontAwesome is awesome, because it&#39;s all built right for you.  If you are only using a few icons, or you want to create your own icon set, you may wish to use a service like <a href="http://www.icomoon.io">IcoMoon</a>.  A great tutorial that leads you through this process (including creating your own font, downloading the files, and including them in your website) is available on <a href="http://gomakethings.com/icon-fonts/">Go Make Things</a>.</p>
+
+<h2 id="css-pseudo-classes">CSS Pseudo Classes</h2>
+
+<p>So far we have been using CSS selectors like the following:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">ul</span> <span class="p">{</span> <span class="o">..</span> <span class="p">}</span> <span class="c">/* Type or Element Selector */</span>
+
+<span class="nc">.myclass</span> <span class="p">{</span> <span class="o">..</span> <span class="p">}</span> <span class="c">/* Class Selector */</span>
+
+<span class="nf">#mainheader</span> <span class="p">{</span> <span class="o">..</span> <span class="p">}</span> <span class="c">/* ID Selector */</span>
+</code></pre></div>
+<p>We&#39;ve also learned that we can combine selectors, like so:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">header</span><span class="nc">.main</span> <span class="p">{</span> <span class="o">..</span> <span class="p">}</span> <span class="c">/* This will target the element header with the class of main, so &lt;header class=&quot;main&quot;&gt; */</span>
+
+<span class="nc">.myclass</span> <span class="nt">a</span> <span class="p">{</span> <span class="o">..</span> <span class="p">}</span> 
+
+<span class="c">/* This will target all the links that are descendants of .myclass  </span>
+<span class="c">    &lt;div class=&quot;myclass&quot;&gt;</span>
+<span class="c">      &lt;p&gt;This text will be &lt;a href=&quot;#&quot;&gt;styled&lt;/a&gt;&lt;/p&gt;</span>
+<span class="c">    &lt;/div&gt;</span>
+<span class="c">*/</span>
+</code></pre></div>
+<p>Another way we can use CSS is to talk about specifics of an element.  So, you may have seen something like this before</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">a</span><span class="nd">:link</span><span class="o">,</span> <span class="nt">a</span><span class="nd">:visited</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>The :link and :visited that are stuck to the selector (in this case, <strong>a</strong>) are called <strong>pseudo classes</strong>.  Pseudo classes are used to be more specific about how you want your CSS to appy, and when.</p>
+
+<p>A great use-case for this is to change link styling when you hover over the link.</p>
+
+<p>For example, we may have CSS that&#39;s as follows:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.example</span> <span class="nt">a</span> <span class="p">{</span>
+    <span class="k">font-size</span><span class="o">:</span> <span class="m">2em</span><span class="p">;</span>
+    <span class="k">color</span><span class="o">:</span><span class="nb">green</span><span class="p">;</span>
+    <span class="k">text-decoration</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>And the result is:</p>
+
+<style>
+.example a, .example a:hover {
+    font-size: 2em;
+    color:green;
+    text-decoration: none;
+    border-bottom: 0;
+    opacity: 1;
+}
+</style>
+
+<p><span class="example">
+  <a href="#">This is my link</a>
+</span></p>
+
+<p>But let&#39;s say that when the user hovers over it, we want it to change in some way.  For example, we may want to underline, or change the color.  Let&#39;s do both.</p>
+
+<p>We do this by using the :hover pseudo class.  When we stick :hover right onto the selector, we&#39;re saying &quot;Hey, apply this CSS when I&#39;m hovering over this thing!&quot;</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.example</span> <span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
+    <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+    <span class="k">text-decoration</span><span class="o">:</span> <span class="k">underline</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>And the result is:</p>
+
+<style>
+.example a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+</style>
+
+<p><span class="example">
+  <a href="#">This is my link</a>
+</span></p>
+
+<h2 id="in-class-activity---adding-social-links-to-your-project-portfolio">In-Class Activity - Adding Social Links to your Project Portfolio</h2>
+
+<div class="activity">
+
+<ol>
+<li>Open your project portfolio in Brackets.</li>
+<li>Open <code>index.html</code>.</li>
+<li><p>At the end of the file, BEFORE the <code>&lt;/body&gt;</code>, create a new element - footer.  Add a class to your footer, called &#39;site-footer&#39;
+<div class="note">
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;footer class=&quot;site-footer&quot;&gt;</span>
+<span class="nt">&lt;/footer&gt;</span>
+</code></pre></div>
+</div></p></li>
+<li><p>Create a list inside your footer.  Add three list items.  Make them <strong>GitHub</strong> and <strong>Email</strong>.
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;footer class=&quot;site-footer&quot;&gt;</span>
+<span class="nt">&lt;ul&gt;</span>
+<span class="nt">&lt;li&gt;</span>GitHub<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>Email<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/footer&gt;</span>
+</code></pre></div></p></li>
+<li><p>At the TOP of your document, before your linked CSS file but after your <code>&lt;/title&gt;</code> add the following line.  I got this from FontAwesome&#39;s <a href="http://fontawesome.io/get-started/">Getting Started</a> page.  We are using their CDN so that we don&#39;t have to download anything separate.
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css&quot;</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span><span class="nt">&gt;</span>
+</code></pre></div></p></li>
+<li><p>Go back down to the footer.  Add icons.  You can use <code>&lt;span&gt;</code> or <code>&lt;i&gt;</code> as the element to add your icons.  In this example we will use span.
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">&quot;site-footer&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;ul&gt;</span>
+<span class="nt">&lt;li&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;fa fa-github&quot;</span><span class="nt">&gt;&lt;/span&gt;</span> GitHub<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;fa fa-envelope&quot;</span><span class="nt">&gt;&lt;/span&gt;</span> Email<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/footer&gt;</span>
+</code></pre></div></p></li>
+<li><p>LivePreview!  Do you see the icons in your footer?</p></li>
+<li><p>Now, let&#39;s link these!  After the <code>&lt;li&gt;</code> open tag, start an <code>&lt;a&gt;</code>.  The href should go to your GitHub page.  Don&#39;t forget to close your <code>&lt;a&gt;</code>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;li&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;<a href="http://github.com/com372-14">http://github.com/com372-14</a>&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;fa fa-github&quot;</span><span class="nt">&gt;&lt;/span&gt;</span> GitHub
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/li&gt;</span>
+</code></pre></div></p></li>
+<li><p>Let&#39;s link your email.  Use mailto:<a href="mailto:MYEMAIL@EMAIL.COM">MYEMAIL@EMAIL.COM</a> as the value for href.
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;li&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;mailto:<a href="mailto:MYEMAIL@EMAIL.COM">MYEMAIL@EMAIL.COM</a>&quot;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;fa fa-envelope&quot;</span><span class="nt">&gt;&lt;/span&gt;</span> Email
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/li&gt;</span>
+</code></pre></div></p></li>
+<li><p>Save your changes.  Open your style.css</p></li>
+<li><p>Create a new css rule to target the links in your footer.  Pick a font-size and a color!
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.site-footer</span> <span class="nt">a</span><span class="p">{</span>
+<span class="k">font-size</span><span class="o">:</span> <span class="m">2em</span><span class="p">;</span>
+<span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Create a second css rule to target the links in your footer <strong>when you hover them</strong>.  Make them a different color!
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.site-footer</span> <span class="nt">a:hover</span><span class="p">{</span>
+<span class="k">color</span><span class="o">:</span> <span class="nb">purple</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Save your work and commit to GitHub.</p></li>
+</ol>
+
+<h3 id="finished-and-class-isn&#39;t-over?">Finished and class isn&#39;t over?</h3>
+
+<ol>
+<li>Add another footer link.  Link to a social media profile.  Find the icon on <a href="http://fontawesome.io/icons/">FontAwesome&#39;s</a> icon page</li>
+<li><p>What happens if you try to add :hover to another element?  Try to change the color of the text inside your color squares when you hover on them.
+<style>
+.solution *{
+background-color: #000;
+color: #000;
+}
+.solution:hover *{
+background-color: white;
+}
+</style>
+<h4>Hover below to view the solution.</h4>
+<div class="solution">
+<pre><code class="language-text" data-lang="text">.color1{
+color: white;
+}
+.color1:hover{
+color: yellow;
+}
+</code></pre>
+</div></p></li>
+<li><p>Try to figure out how I just did THAT (hovering to see the solution).  Don&#39;t cheat by looking at my code, since I had to use a bit of a hack to override the default styling on our course website.</p></li>
+</ol>
+
+</div>
+
+<h2 id="homework">Homework</h2>
+
+<ol>
+<li>Read Chapter 13 in your web design book.</li>
+</ol>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

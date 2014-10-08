@@ -125,3 +125,6 @@ You can also play around with some different CSS text styling effects here -  ht
   
 - Read Chapter 12 of your Web Design book.
 - Find at least five websites that you think have good type.  Add them to your inspiration journal.  Explain what you like about each site.  Share your inspiration journal with me!
+- Complete the next two lessons in CodeCademy
+  *  [HTML Basics III](http://www.codecademy.com/courses/web-beginner-en-f8mcL) (Due Wednesday, October 8, 2014)
+  *  [Project: Clickable Photo Page](http://www.codecademy.com/courses/web-beginner-en-zrZ6c) (Due Wednesday, October 8, 2014)
