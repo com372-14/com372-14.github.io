@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typography and Navigation
+title: Icon Fonts & Pseudo Elements
 lesson_num: '19'
 week_num: 7
 class_date: October 8, 2014
@@ -173,3 +173,9 @@ And the result is:
 ## Homework
 
 1. Read Chapter 13 in your web design book.
+2. Read the articles from the lesson
+  - [Icon Usability on Nielsen](http://www.nngroup.com/articles/icon-usability/)
+  - [Use and Abuse of Icons in the Modern Age](http://webdesign.tutsplus.com/articles/use-and-abuse-of-icons-in-the-modern-age--webdesign-17064)
+  - [UX Myths - Myth #13: Icons enhance usability](http://uxmyths.com/post/715009009/myth-icons-enhance-usability)
+  - [Why And How To Use Icon Fonts](http://www.vanseodesign.com/web-design/icon-fonts/)
+3. Don't forget to submit your CodeCademy that was due today.
