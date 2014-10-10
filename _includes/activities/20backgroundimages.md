@@ -1,6 +1,6 @@
 1. Open your project portfolio **on your computer** (not in Brackets.  We want to view the files).
 2. Create a new folder - **birthday**
-3. Download this zip file.  All of the files inside of it should go in your newly created **birthday** folder.
+3. Download [this zip file](/lesson_files/birthday.zip).  All of the files inside of it should go in your newly created **birthday** folder.
 <div class="note">
 Now you should have a **birthday** folder inside of your project portfolio, and inside of that **birthday** folder there are two other folders (css and img) and an index.html file.
 </div>
