@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Background Images</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Background Images</h1>
+  <p class="date">Lesson Number 20, October 10, 2014</p>
+  <div id="post">
+  <p class="lead"></p>
+    <h2 id="due-for-this-class">Due For This Class</h2>
+
+<ol>
+<li>Read Chapter 13 in your web design book.</li>
+<li>Read the articles from the lesson
+
+<ul>
+<li><a href="http://www.nngroup.com/articles/icon-usability/">Icon Usability on Nielsen</a></li>
+<li><a href="http://webdesign.tutsplus.com/articles/use-and-abuse-of-icons-in-the-modern-age--webdesign-17064">Use and Abuse of Icons in the Modern Age</a></li>
+<li><a href="http://uxmyths.com/post/715009009/myth-icons-enhance-usability">UX Myths - Myth #13: Icons enhance usability</a></li>
+<li><a href="http://www.vanseodesign.com/web-design/icon-fonts/">Why And How To Use Icon Fonts</a></li>
+</ul></li>
+<li>Don&#39;t forget to submit your CodeCademy that was due Wednesday.</li>
+</ol>
+
+<h2 id="lesson-breakdown">Lesson Breakdown</h2>
+
+<ol>
+<li>Happy Birthday, CSS!</li>
+<li>Beyond <code>background-color</code> - using background images</li>
+</ol>
+
+<h2 id="css-is-20!">CSS is 20!</h2>
+
+<ul>
+<li><a href="http://www.w3.org/People/howcome/p/cascade.html">The original proposal</a></li>
+<li><a href="https://dev.opera.com/articles/css-twenty-years-hakon/">Recent interview with the person who first proposed CSS</a></li>
+</ul>
+
+<p data-height="268" data-theme-id="0" data-slug-hash="JrGxp" data-default-tab="result" data-user="sonu" class='codepen'>See the Pen <a href='http://codepen.io/sonu/pen/JrGxp/'>Birthday Cake</a> by Sonu Joshi (<a href='http://codepen.io/sonu'>@sonu</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="background-images">Background Images</h2>
+
+<p>The <code>background-image</code> property in CSS allows you to place any image behind the content of an HTML element.  A <code>background-image</code> can be applied to almost any element (not just the whole page), and by default will repeat itself to fill the entire box.</p>
+
+<p>When writing your CSS to include your background image, you want to use the structure <code>url(&#39;path/to/img.png&#39;);</code>.</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="p">{</span>
+  <span class="k">background-image</span><span class="o">:</span> <span class="sx">url(&#39;../images/mybackground.png&#39;)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><a href="../lesson_files/background-practice1.html">View an example</a></p>
+
+<p>If you don&#39;t want your background image to repeat, you can set that as so:</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="p">{</span>
+  <span class="k">background-image</span><span class="o">:</span> <span class="sx">url(&#39;../images/mybackground.png&#39;)</span><span class="p">;</span>
+  <span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><a href="../lesson_files/background-practice2.html">View an example</a></p>
+
+<p>You can still have a background color if you&#39;re using a background image.  You can also position the background image in a different spot (rather than the top left corner).</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="p">{</span>
+  <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="k">background-image</span><span class="o">:</span> <span class="sx">url(&#39;seamless-bg.jpg&#39;)</span><span class="p">;</span>
+  <span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
+  <span class="k">background-position</span><span class="o">-</span><span class="n">x</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+  <span class="k">background-position</span><span class="o">-</span><span class="n">y</span><span class="o">:</span> <span class="m">50px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<p><a href="../lesson_files/background-practice3.html">View an example</a></p>
+
+<h2 id="in-class-activity---adding-social-links-to-your-project-portfolio">In-Class Activity - Adding Social Links to your Project Portfolio</h2>
+
+<div class="activity">
+
+<ol>
+<li>Open your project portfolio <strong>on your computer</strong> (not in Brackets.  We want to view the files).</li>
+<li>Create a new folder - <strong>birthday</strong></li>
+<li><p>Download this zip file.  All of the files inside of it should go in your newly created <strong>birthday</strong> folder.
+<div class="note">
+Now you should have a <strong>birthday</strong> folder inside of your project portfolio, and inside of that <strong>birthday</strong> folder there are two other folders (css and img) and an index.html file.
+</div></p></li>
+<li><p>Open Brackets and open your project portfolio.  Close all your currently opened files.  Open the <strong>index.html</strong> this is in your <strong>birthday</strong> folder.</p></li>
+<li><p>Live preview it.</p></li>
+<li><p>Add a background image to the <code>body</code>.  There is an image you can use in the <code>img</code> folder.  To do so, add the following to your CSS.
+<div class="note">
+Add the following to the <strong>style.css</strong> that is in your CSS folder.
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span><span class="p">{</span>
+<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(&#39;../img/balloons.png&#39;)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+</div></p></li>
+<li><p>That makes our text really hard to read, doesn&#39;t it?  Add a background color to your header, footer, and .birthday-message to make the text easier to read!</p></li>
+</ol>
+
+</div>
+
+<h2 id="homework">Homework</h2>
+
+<ul>
+<li>Start working on <a href="../projects/05-resume.html">Project #5</a>.  This is due <strong>next Friday</strong> (Friday, October 17, 2014).</li>
+<li>Start working on <a href="http://www.codecademy.com/courses/web-beginner-en-TlhFi">CSS: An Overview</a> (Due Wednesday, October 15, 2014)</li>
+<li>Start working on <a href="http://www.codecademy.com/courses/web-beginner-en-UuBLw">Project: Design a Button for your Website</a> (Due Wednesday, October 15, 2014)</li>
+</ul>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+  background-image: url('seamless-bg.jpg');
+  /* For this example, the background image
+      is in the same folder as the CSS file,
+      so we can just use the image name */
+}
+body.norepeat{
+  background-image: url('seamless-bg.jpg');
+  background-repeat: no-repeat;
+  /* For this example, the background image
+      is in the same folder as the CSS file,
+      so we can just use the image name */
+}
+
+body.green{
+  background-color: green;
+  background-image: url('seamless-bg.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50px;
+}
