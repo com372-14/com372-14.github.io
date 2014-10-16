@@ -1,11 +1,11 @@
 ---
 layout: post
-title: The Box Model
+title: Cover Sized Background Images
 lesson_num: '22'
 week_num: 8
 class_date: October 17, 2014
 lead: 
-dontlink: true
+dontlink: false
 ---
 
 ## Due For This Class

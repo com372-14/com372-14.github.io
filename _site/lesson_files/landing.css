@@ -1,0 +1,30 @@
+body{
+  background: url('landing.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 30px;
+  text-align:center;
+  font-family: Ubuntu, sans-serif;
+  color: white;
+}
+
+ul li{
+  display:inline-block;
+  padding: 10px;
+}
+
+a{
+}
+#hero{
+  text-transform: uppercase;
+  padding: 100px;
+}
+.hero-big{
+  font-size: 3em;
+  margin-top: 40px;
+}
+.hero-normal{
+  font-size: 2em;
+}

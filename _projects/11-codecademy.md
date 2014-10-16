@@ -35,8 +35,8 @@ Throughout the course, you will work through the **Web Fundamentals** Track on C
 
 ### CSS Classes and IDs
 
-*   [CSS Selectors](http://www.codecademy.com/courses/web-beginner-en-WF0CF)
-*   [Project: Sorting your Friends](http://www.codecademy.com/courses/web-beginner-en-jNuXw)
+*   [CSS Selectors](http://www.codecademy.com/courses/web-beginner-en-WF0CF) (Due Monday, October 27, 2014)
+*   [Project: Sorting your Friends](http://www.codecademy.com/courses/web-beginner-en-jNuXw) (Due Monday, October 27, 2014)
 
 ### CSS Element Positioning
 

@@ -1,25 +1,27 @@
 ---
 layout: project
-title: Project 5 - Spruce Up Your Resume
-duedate: Friday, October 17, 2014
+title: Project 6 - Web Design & Development Inspiration
+duedate: Monday, October 27, 2014
 ---
 
+## Project Goals
 
-## What You'll Learn
-
-This project will allow you to practice using web fonts and background images.
-
-## Read Me First
-
-- Read Chapter 13 in your web design book.
-
+1. Watch videos about web design
+2. Create a web page on which you review these videos and discuss what you have learned
 
 ## Step-by-Step
 
-1. You'll be working on your already created HTML resume.  If you have not yet formatted your resume as HTML, you must do so to complete this project.  The resume should be saved in your project-portfolio as resume.html
-2. Create a new CSS file for your resume (if you do not have one already).  Save it in your `css` folder as `resume.css`
+1. From the list of videos below, choose three videos / sets of videos to watch over the next week.  The videos range in length from 20 - 60 minutes.  You must choose three from the list.
+2. Create a new HTML file in your project portfolio.  Name it 06videos.html.  Remember to link it to your project portfolio index.
+3. Link a stylesheet to your newly created videos page.  You may use your styles.css that you have been using for your main project portfolio page, or create a new stylesheet specifically for this page.
+4. For each video / video set that you watch, create a section on your page (using appropriate, semantic markup - `<section>`, `<article>`, or `<div>`).  In each section, the following content should be presented
+  - Video Title
+  - Speaker (if appropriate)
+  - A link to the video
+  - Your thoughts about the video (must be at least 150 words for each video)
+  - Three things you learned while watching this video
 
-Your resume should feature
+Your project should utilize
 
 - Appropriate, semantic markup
 - Thoughtful use of fonts & color via external CSS (View Chapter 12 in your book)
@@ -43,4 +45,23 @@ Unvalidated code without explaination will result in an automatic deduction of 1
 
 When you have completed this project, commit it to your GitHub Project Portfolio repository.  Don't forget to add a link to this new page from your index.html page!
 
-You must submit code to your Project Portfolio by the start of class on Friday.  We will have time at the beginning of class to submit our code.  If you do not submit code by the start of class (and have not reached out to me regarding issues), you will receive an automatic deduction of 10 points from your grade.
+You must submit code to your Project Portfolio by the start of class on Monday.  We will have time at the beginning of class to submit our code.  If you do not submit code by the start of class (and have not reached out to me regarding issues), you will receive an automatic deduction of 10 points from your grade.
+
+### List of Videos
+
+- ["How Designers Destroyed the World"](http://vimeo.com/68470326) (this may have some questionable language)
+- ["2013/4 Brand Frost"](http://vimeo.com/63437853)
+- ["The Spirit of the Web"](http://vimeo.com/54527782)
+- ["Designing with details"](http://vimeo.com/album/2784294/video/89543518)
+- ["Mobile First"](http://vimeo.com/38187066)
+- ["The Humble Border-Radius (CSS Day)"](http://vimeo.com/70171266)
+- ["Ten Commandments of Web Design"](http://vimeo.com/84467622)
+- ["10 things I didn't know about HTML"](http://vimeo.com/89935203)
+- ["Front End Legos: Better Design with Reusable HTML and CSS"](http://confreaks.com/videos/2230-html5tx2013-front-end-legos-better-design-with-reusable-html-css)
+
+#### Don't Fear the Internet (all three parts together are shorter than the other videos listed)
+- "Don't Fear the Internet"
+  - [Part 1](http://vimeo.com/24006296)
+  - [Part 2](http://vimeo.com/25665411)
+  - [Part 3](http://vimeo.com/27833342)
+  
