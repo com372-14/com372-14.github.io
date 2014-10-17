@@ -1,14 +1,20 @@
-body{
-  background: url('landing.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html{
+  background-image:url('fall-leaves.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  xbackground: url('fall-leaves.jpg') no-repeat center center fixed; 
+ x-webkit-background-size: cover;
+  x-moz-background-size: cover;
+  x-o-background-size: cover;
+  xbackground-size: cover;
   font-size: 30px;
   text-align:center;
   font-family: Ubuntu, sans-serif;
-  color: white;
+  xcolor: white;
+
 }
+
 
 ul li{
   display:inline-block;

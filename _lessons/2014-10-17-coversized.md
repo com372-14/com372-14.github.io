@@ -14,7 +14,11 @@ dontlink: false
 
 ## Activity
   
-(will post before class)
+<div class="activity">
+{% capture my_include %}{% include activities/22coverimages.md %}{% endcapture %}
+{{ my_include | markdownify }}
+</div>
+
 
 ## Homework
 

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COM372-14 - Cover Sized Background Images</title>
+  <meta name="author" content="COM372-14" />
+  <meta name="description" content="{ site.theme.name }}" />
+
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="COM372-14" href="http://com372-14.github.io//atom.xml" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body class="">
+
+  <header class="site-header group">
+    <h1 class="site-title"><a class="header-link" href="/"><span class="site_name">COM372-14 : </span><span class="subtitle"> Web Design and Development</span></a></h1>
+    <nav class="site-nav">
+      <ul class="nav-list">
+        <li><a href="/syllabus"><span class="fa fa-graduation-cap"></span> Syllabus</a></li>
+        <li><a href="/projects"><span class="fa fa-file-code-o"></span> Class Projects</a></li>
+        <li><a href="/about"><span class="fa fa-info-circle"></span> About</a></li>
+        <li><a href="/resources"><span class="fa fa-book"></span> Resources</a></li>
+      </ul>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <article class="lesson">
+  <h1 class="title">Cover Sized Background Images</h1>
+  <p class="date">Lesson Number 22, October 17, 2014</p>
+  <div id="post">
+  <p class="lead"></p>
+    <h2 id="due-for-this-class">Due For This Class</h2>
+
+<ul>
+<li><a href="../projects/05-resume.html">Project #5</a>.</li>
+</ul>
+
+<h2 id="activity">Activity</h2>
+
+<div class="activity">
+
+<ol>
+<li>Go to <a href="http://www.pexels.com">pexels</a> and find a background photo you want to use.  Try to find something that you will be able to lay either white or black text over and there will be enough contrast for you to read the text.</li>
+<li>Download this file and place it in the &quot;images&quot; folder in your project portfolio.</li>
+<li>Create a new file in your project porfolio and name it <code>splash.html</code>.  Copy the code from our <a href="https://github.com/com372-14/project-template/blob/master/index.html">project-template</a> into it.</li>
+<li>Create a new file in your CSS folder and name it <code>splash.css</code>.</li>
+<li>If you don&#39;t have normalize in your CSS folder, <a href="https://github.com/com372-14/project-template/blob/master/css/normalize.css">download it from here</a> and save it to your css folder.</li>
+<li>At the top of the <code>splash.html</code> there is a link for <code>css/style.css</code>.  Change this to <code>css/splash.css</code>.</li>
+<li><p>Create a div as the first part of the <code>body</code>, and set the class as <code>page-wrap</code>
+<div class="highlight"><pre><code class="language-text" data-lang="text">  &lt;div class=&quot;page-wrap&quot;&gt;
+&nbsp;
+&nbsp;&nbsp;&lt;/div&gt;
+</code></pre></div></p></li>
+<li><p>Create a <code>ul</code> as the first part of the page-wrap, and set the class to <code>social</code>.</p></li>
+<li><p>Create at least two list items.  Use Font Awesome to create social icons.  Review step 5 in <a href="http://com372-14.github.io/lessons/2014-10-08-typeandnavigation.html">last week&#39;s activity</a> if you forget how to do this.</p></li>
+<li><p>Under the ul, create an <code>H1</code> and an <code>H2</code>.  Set the text of the H1 to your name, and the text of the H2 to a short statement about you.</p></li>
+<li><p>Hit enter a few times, and then go into the website HTML-Ipsum and copy the <a href="http://html-ipsum.com/">&quot;Kitchen Sink&quot;</a> text.  Paste it into your document.  This is just to make the page longer. </p></li>
+<li><p>Live preview!  You should have a list on the page and two headings, plus the random text from HTML-Ipsum</p></li>
+<li><p>Open your <code>css/splash.css</code>.</p></li>
+<li><p>At the top, create a CSS rule that will apply to the <strong>entire html document</strong>.  Add a background image.  The image will be the photo you downloaded from pexels.
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
+<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Live preview.  What happened?  Is your photo too big for your browser and you are only seeing a part of it?  Or maybe your photo is too small and it&#39;s repeating.  First, let&#39;s make it stop repeating.
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
+<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
+<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Now, position it.  The position takes two attributes - one for x axis and one for y axis.  We can use pixels, percentages, or just &quot;top&quot;, &quot;center&quot;, &quot;left&quot;, &quot;right&quot; or &quot;bottom&quot;.  We will be using <strong>center center</strong> to position the background image in the center of our document.
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
+<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
+<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
+<span class="k">background-position</span><span class="o">:</span> <span class="k">center</span> <span class="k">center</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Backgrounds can also be attached to the window - you can have them fixed in place, or you can have them scroll.  We want ours fixed in place.
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
+<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
+<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
+<span class="k">background-position</span><span class="o">:</span> <span class="k">center</span> <span class="k">center</span><span class="p">;</span>
+<span class="k">background-attachment</span><span class="o">:</span> <span class="k">fixed</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Now for the magic.  Let&#39;s make this image fit in the space we have for it!
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span> <span class="p">{</span> 
+<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
+<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
+<span class="k">background-position</span><span class="o">:</span> <span class="k">center</span> <span class="k">center</span><span class="p">;</span>
+<span class="k">background-attachment</span><span class="o">:</span> <span class="k">fixed</span><span class="p">;</span>
+<span class="k">background</span><span class="o">-</span><span class="k">size</span><span class="o">:</span> <span class="n">cover</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></p></li>
+<li><p>Let&#39;s live preview!</p></li>
+</ol>
+
+</div>
+
+<h2 id="homework">Homework</h2>
+
+<p>(will post before class)</p>
+
+  </div>
+</article>
+
+  </div>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-footer">
+<ul>
+<li><a href="https://github.com/com372-14"><i class="fa fa-github"></i></a></li>
+<li><a href="mailto:kpipe@sju.edu"><i class="fa fa-envelope"></i></a></li>
+</ul>
+</div>
+<div class="info-footer">
+<p>This website was created for the <a href="http://www.sju.edu">Saint Joseph's University</a> undergraduate course COM372 Web Design and Development, Section #1, offered Fall 2014, instructed by <a href="http://www.kapipe.com">Kelly Anne Pipe</a></p>
+</div>
+
+<p class="copyright">All content is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+    </div>
+  </footer>
+<script src="/assets/js/jquery-1.11.0.min.js"></script>
+<script src="/assets/js/jquery.scrollNav.min.js"></script>
+
+
+<script>
+  $('.lesson, .syllabus, .resources').scrollNav({
+    showHeadline: false,
+    showTopLink: false
+  });
+</script>
+</body>
+</html>
