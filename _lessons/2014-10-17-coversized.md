@@ -10,8 +10,12 @@ dontlink: false
 
 ## Due For This Class
 
-## Presentation
+- [Project #5](../projects/05-resume.html).
 
-## Lesson Heading
+## Activity
   
+(will post before class)
+
 ## Homework
+
+(will post before class)
