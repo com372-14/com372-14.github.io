@@ -28,7 +28,7 @@ dontlink: false
 
 ## Homework
 
-- [Project #6](../projects/06-videos.html).  Due Monday, October 27, 2014
+- [Project #6](../projects/06-video.html).  Due Monday, October 27, 2014
   - **Important Note** - part of this project is watching recorded videos about web design and development.  Do not leave this until the night before.
 
 - CodeCademy
