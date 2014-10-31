@@ -40,11 +40,166 @@
   <p class="lead"></p>
     <h2 id="due-for-this-class">Due For This Class</h2>
 
-<h2 id="presentation">Presentation</h2>
+<ul>
+<li>Read <a href="http://www.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/">CSS Layouts - Fixed vs Fluid</a></li>
+<li>Read <a href="http://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471">All About Grid Systems</a> and <a href="http://webdesign.tutsplus.com/articles/choosing-a-grid-system--webdesign-14490">Choosing a Grid System</a></li>
+</ul>
 
-<h2 id="lesson-heading">Lesson Heading</h2>
+<h2 id="activity">Activity</h2>
+
+<p>In this class we&#39;re going to encounter some spooky / creepy / cool effects that show off the power of CSS and HTML. We will be utilizing a lot of things we&#39;ve learned already this semester as well as some new effects.</p>
+
+<p>We will be using a tool called CodePen.  CodePen is a great tool that allows you to play around with HTML and CSS (and Javascript) and see the results right in your browser!  It also allows users to share their code and to make copies of other people&#39;s code to play around with it (kind of like Github!).</p>
+
+<p>Because CodePen allows you to code right in the browser, you don&#39;t have to make your normal HTML page structure - no <head>, etc.  You simply start writing what you would normally have in the browser.  It&#39;s more limited than a full website, but it&#39;s a great thing try out new concepts and to experiment.</p>
+
+<ol>
+<li>Create an account on <a href="https://codepen.io/login">Codepen</a> (you can use your github account to login!)</li>
+<li>Create a new pen</li>
+<li>In the bottom right-hand corner, you&#39;ll see three buttons - for &quot;HTML&quot;, &quot;CSS&quot;, and &quot;JS&quot;.  Click the &quot;JS&quot; one (we aren&#39;t using Javascript so we can hide this)</li>
+<li>In the HTML section, create a heading (h1, h2, etc) and put some text in it.</li>
+<li>In the CSS section, give your <code>body</code> a background color.</li>
+<li>In the CSS section, set your heading to a larger font size.  Give it a color.<br></li>
+</ol>
+
+<h2 id="change-color-on-hover!">Change color on hover!</h2>
+
+<ol>
+<li>Let&#39;s try to change the color when we hover over the heading (the following instructions assume you&#39;re using <code>h1</code>)
+
+<ul>
+<li>create a new rule.  The selector should be <code>h1:hover</code></li>
+<li>inside the rule, set the color to a different color than your normal text.</li>
+<li>try it out!  the text should change color!</li>
+</ul></li>
+</ol>
+
+<h2 id="using-google-web-fonts-in-codepen">Using Google Web Fonts in CodePen</h2>
+
+<p>You can use Google Web Fonts in Codepen. Just go to Google fonts, pick a font, and use the <code>@import</code> version of the font (the second tab in the &#39;use&#39; section).  Put this at the top of your CSS.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">@import url(http://fonts.googleapis.com/css?family=Kavoon);
+</code></pre></div>
+<h2 id="fading!">Fading!</h2>
+
+<ol>
+<li>When we hover our text, it makes it immediately the new color.  What if we wanted to make it a different color slowly?</li>
+<li>We can use <code>transition</code>.  Transition lets us affect the things that happen if the element changes (for example, when you hover).  There are lots of reasons an element might change - the one we are using now is when you hover over something.</li>
+</ol>
+<div class="highlight"><pre><code class="language-text" data-lang="text">.example {
+    transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+}
+</code></pre></div>
+<p>We want to set the color to change slowly by using the following code</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">h1 {
+  transition: color 1s;
+}
+</code></pre></div>
+<p><a href="http://css-tricks.com/almanac/properties/t/transition/">Read more about transitions</a></p>
+
+<h2 id="text-shadow">Text Shadow</h2>
+
+<ol>
+<li>Let&#39;s try to add a text-shadow.
+
+<ul>
+<li>inside the normal h1 rule, add a new property</li>
+<li>the property name is <code>text-shadow</code>.</li>
+<li>there are four values - three numbers and a color.</li>
+<li>the first number is the x-offset.  the second number is the y-offset.  the third number is the blur.  the color is any CSS color (including rgba - for semi-transparent colors)</li>
+<li>your final property should look something like this
+<div class="highlight"><pre><code class="language-text" data-lang="text">  h1{
+...
+text-shadow: 4px 10px 5px #167DAD;
+}
+</code></pre></div></li>
+</ul></li>
+</ol>
+
+<h2 id="circles!">Circles!</h2>
+
+<ol>
+<li><p>Let&#39;s try to make a circle.  First, make a box - create an empty div and give it a class.
+<div class="highlight"><pre><code class="language-text" data-lang="text">  &lt;div class=&quot;circle&quot;&gt;&lt;/div&gt;
+</code></pre></div></p></li>
+<li><p>In your CSS, give your circle a background color, and a width and a height.  Set it so it&#39;s centered in the window
+<div class="highlight"><pre><code class="language-text" data-lang="text">  .circle{
+background-color: orange;
+width: 150px;
+height: 150px;
+margin: 0px auto;
+}
+</code></pre></div></p></li>
+</ol>
+
+<h2 id="glowing!">Glowing!</h2>
+
+<ol>
+<li>Let&#39;s make our circle glow!</li>
+<li>We can add shadow to boxes too - not just text.</li>
+<li>In your CSS, in the style for the circle, set the <code>box-shadow</code> with a shadow that has no offset (the first two numbers will be 0), and a lot of blur.  Set the color to yellow (or any other color that will stand out on your page)</li>
+</ol>
+
+<h2 id="growing!">Growing!</h2>
+
+<ol>
+<li>We can use CSS to make things bigger and smaller.</li>
+<li>Let&#39;s make our circle bigger when we hover it.</li>
+</ol>
+<div class="highlight"><pre><code class="language-text" data-lang="text">.circle:hover{
+  transform: scale(3);
+}
+</code></pre></div>
+<p>Well, that&#39;s a sudden change!  Let&#39;s add a timing to that transition to slow it down a bit!  Remember, our transition goes in the CSS for the original element (not the hover)</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">.circle {
+  ..
+  transition: transform 1s;
+}
+</code></pre></div>
+<p><a href="http://css-tricks.com/almanac/properties/t/transform/">Read more about transform and the things you can do!</a></p>
+
+<h3 id="exploring-other-pens">Exploring other Pens</h3>
+
+<p>When you&#39;re looking at other people&#39;s pens, you will often see that people are using funky code that only sort of looks like HTML or CSS (or sometimes not at all).  There are different short-cut ways of writing HTML and CSS that require special processing by a script before the browser can understand it.  For us, if you find a codepen that you are interested in, and it has &quot;weird&quot; looking code, you can click the little <code>eye</code> icon in that code box.  This will switch the view so you see the processed code.</p>
+
+<ul>
+<li><a href="http://codepen.io/juanbrujo/pen/yGpAK">Cool Text Shadows</a></li>
+<li><a href="http://codepen.io/chriscoyier/pen/urkCd">More Cool Text Shadows</a></li>
+<li><a href="http://codepen.io/skeurentjes/pen/LHIcA">Button effects</a></li>
+<li><a href="http://codepen.io/pxdunn/pen/FLsvf">Another button effect</a></li>
+<li><a href="http://codepen.io/TimPietrusky/pen/eHGfj">Star Wars Opening Crawl</a></li>
+</ul>
+
+<p>There are some crazy CodePen demos out there.  Explore!  Fork things!  Try things out!</p>
 
 <h2 id="homework">Homework</h2>
+
+<h3 id="content-planning-homework---due-monday,-november-3">Content Planning Homework - due Monday, November 3</h3>
+
+<ul>
+<li><p>Sitemap</p>
+
+<ul>
+<li>Using a sitemap tool (such as draw.io) or another method that allows you to create a structured chart, create a sitemap for your final project</li>
+<li>Email this to me, whether as a screenshot, a graphic, or a link to your sitemap online</li>
+</ul></li>
+<li><p>Initial content planning documents (answer the first two sets of questions from Monday&#39;s lesson).  Email to me as a text document, a link to a Google Document, or a link to an online planning tool.</p></li>
+</ul>
+
+<p><strong>Content</strong></p>
+
+<ul>
+<li>What content will you need to have?<br></li>
+<li>What content is already created?  What will you need to create?<br></li>
+</ul>
+
+<p><strong>Navigation</strong></p>
+
+<ul>
+<li>What will your menu items be?</li>
+<li>What pages will you need?<br></li>
+<li>What content will go on each page?<br></li>
+<li>How will people navigate through your website?</li>
+</ul>
 
   </div>
 </article>

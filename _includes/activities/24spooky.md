@@ -1,36 +1,9 @@
----
-layout: post
-title: Grids & Positioning
-lesson_num: '24'
-week_num: 10
-class_date: October 31, 2014
-lead: 
-dontlink: false
----
-
-## Due For This Class
-
-- Read [CSS Layouts - Fixed vs Fluid](http://www.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)
-- Read [All About Grid Systems](http://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471) and [Choosing a Grid System](http://webdesign.tutsplus.com/articles/choosing-a-grid-system--webdesign-14490)
-
-
-## Activity
-
-In this class we're going to encounter some spooky / creepy / cool effects that show off the power of CSS and HTML. We will be utilizing a lot of things we've learned already this semester as well as some new effects.
-
-We will be using a tool called CodePen.  CodePen is a great tool that allows you to play around with HTML and CSS (and Javascript) and see the results right in your browser!  It also allows users to share their code and to make copies of other people's code to play around with it (kind of like Github!).
-
-Because CodePen allows you to code right in the browser, you don't have to make your normal HTML page structure - no <head>, etc.  You simply start writing what you would normally have in the browser.  It's more limited than a full website, but it's a great thing try out new concepts and to experiment.
-
 1. Create an account on [Codepen](https://codepen.io/login) (you can use your github account to login!)
 2. Create a new pen
 3. In the bottom right-hand corner, you'll see three buttons - for "HTML", "CSS", and "JS".  Click the "JS" one (we aren't using Javascript so we can hide this)
 4. In the HTML section, create a heading (h1, h2, etc) and put some text in it.
 5. In the CSS section, give your `body` a background color.
 6. In the CSS section, set your heading to a larger font size.  Give it a color.  
-
-## Change color on hover!
-
 7. Let's try to change the color when we hover over the heading (the following instructions assume you're using `h1`)
   - create a new rule.  The selector should be `h1:hover`
   - inside the rule, set the color to a different color than your normal text.
@@ -122,37 +95,3 @@ Well, that's a sudden change!  Let's add a timing to that transition to slow it 
 ```
 
 [Read more about transform and the things you can do!](http://css-tricks.com/almanac/properties/t/transform/)
-
-### Exploring other Pens
-
-When you're looking at other people's pens, you will often see that people are using funky code that only sort of looks like HTML or CSS (or sometimes not at all).  There are different short-cut ways of writing HTML and CSS that require special processing by a script before the browser can understand it.  For us, if you find a codepen that you are interested in, and it has "weird" looking code, you can click the little `eye` icon in that code box.  This will switch the view so you see the processed code.
-
-- [Cool Text Shadows](http://codepen.io/juanbrujo/pen/yGpAK)
-- [More Cool Text Shadows](http://codepen.io/chriscoyier/pen/urkCd)
-- [Button effects](http://codepen.io/skeurentjes/pen/LHIcA)
-- [Another button effect](http://codepen.io/pxdunn/pen/FLsvf)
-- [Star Wars Opening Crawl](http://codepen.io/TimPietrusky/pen/eHGfj)
-
-There are some crazy CodePen demos out there.  Explore!  Fork things!  Try things out!
-
-## Homework
-
-### Content Planning Homework - due Monday, November 3
-
-- Sitemap
-  - Using a sitemap tool (such as draw.io) or another method that allows you to create a structured chart, create a sitemap for your final project
-  - Email this to me, whether as a screenshot, a graphic, or a link to your sitemap online
-  
-- Initial content planning documents (answer the first two sets of questions from Monday's lesson).  Email to me as a text document, a link to a Google Document, or a link to an online planning tool.
-
-  **Content**
-  
-  - What content will you need to have?  
-  - What content is already created?  What will you need to create?  
-  
-  **Navigation**
-  
-  - What will your menu items be?
-  - What pages will you need?  
-  - What content will go on each page?  
-  - How will people navigate through your website?
