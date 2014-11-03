@@ -1,0 +1,14 @@
+/* These are your styles that you have created
+    to go along with (complement) or override
+    the bootstrap styles.
+    
+    This file should be include on your page AFTER
+    the default Bootstrap css
+*/
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
