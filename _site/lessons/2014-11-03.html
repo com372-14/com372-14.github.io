@@ -79,59 +79,8 @@
 <div class="activity">
 
 <ol>
-<li>Go to <a href="http://www.pexels.com">pexels</a> and find a background photo you want to use.  Try to find something that you will be able to lay either white or black text over and there will be enough contrast for you to read the text.</li>
-<li>Download this file and place it in the &quot;images&quot; folder in your project portfolio.</li>
-<li>Create a new file in your project porfolio and name it <code>splash.html</code>.  Copy the code from our <a href="https://github.com/com372-14/project-template/blob/master/index.html">project-template</a> into it.</li>
-<li>Create a new file in your CSS folder and name it <code>splash.css</code>.</li>
-<li>If you don&#39;t have normalize in your CSS folder, <a href="https://github.com/com372-14/project-template/blob/master/css/normalize.css">download it from here</a> and save it to your css folder.</li>
-<li>At the top of the <code>splash.html</code> there is a link for <code>css/style.css</code>.  Change this to <code>css/splash.css</code>.</li>
-<li><p>Create a div as the first part of the <code>body</code>, and set the class as <code>page-wrap</code>
-<div class="highlight"><pre><code class="language-text" data-lang="text">  &lt;div class=&quot;page-wrap&quot;&gt;
-&nbsp;
-&nbsp;&nbsp;&lt;/div&gt;
-</code></pre></div></p></li>
-<li><p>Create a <code>ul</code> as the first part of the page-wrap, and set the class to <code>social</code>.</p></li>
-<li><p>Create at least two list items.  Use Font Awesome to create social icons.  Review step 5 in <a href="http://com372-14.github.io/lessons/2014-10-08-typeandnavigation.html">last week&#39;s activity</a> if you forget how to do this.</p></li>
-<li><p>Under the ul, create an <code>H1</code> and an <code>H2</code>.  Set the text of the H1 to your name, and the text of the H2 to a short statement about you.</p></li>
-<li><p>Hit enter a few times, and then go into the website HTML-Ipsum and copy the <a href="http://html-ipsum.com/">&quot;Kitchen Sink&quot;</a> text.  Paste it into your document.  This is just to make the page longer. </p></li>
-<li><p>Live preview!  You should have a list on the page and two headings, plus the random text from HTML-Ipsum</p></li>
-<li><p>Open your <code>css/splash.css</code>.</p></li>
-<li><p>At the top, create a CSS rule that will apply to the <strong>entire html document</strong>.  Add a background image.  The image will be the photo you downloaded from pexels.
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
-<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></p></li>
-<li><p>Live preview.  What happened?  Is your photo too big for your browser and you are only seeing a part of it?  Or maybe your photo is too small and it&#39;s repeating.  First, let&#39;s make it stop repeating.
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
-<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
-<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></p></li>
-<li><p>Now, position it.  The position takes two attributes - one for x axis and one for y axis.  We can use pixels, percentages, or just &quot;top&quot;, &quot;center&quot;, &quot;left&quot;, &quot;right&quot; or &quot;bottom&quot;.  We will be using <strong>center center</strong> to position the background image in the center of our document.
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
-<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
-<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
-<span class="k">background-position</span><span class="o">:</span> <span class="k">center</span> <span class="k">center</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></p></li>
-<li><p>Backgrounds can also be attached to the window - you can have them fixed in place, or you can have them scroll.  We want ours fixed in place.
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span><span class="p">{</span>
-<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
-<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
-<span class="k">background-position</span><span class="o">:</span> <span class="k">center</span> <span class="k">center</span><span class="p">;</span>
-<span class="k">background-attachment</span><span class="o">:</span> <span class="k">fixed</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></p></li>
-<li><p>Now for the magic.  Let&#39;s make this image fit in the space we have for it!
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">html</span> <span class="p">{</span> 
-<span class="k">background-image</span><span class="o">:</span> <span class="sx">url(images/my-image.jpg)</span><span class="p">;</span>
-<span class="k">background-repeat</span><span class="o">:</span> <span class="k">no-repeat</span><span class="p">;</span>
-<span class="k">background-position</span><span class="o">:</span> <span class="k">center</span> <span class="k">center</span><span class="p">;</span>
-<span class="k">background-attachment</span><span class="o">:</span> <span class="k">fixed</span><span class="p">;</span>
-<span class="k">background</span><span class="o">-</span><span class="k">size</span><span class="o">:</span> <span class="n">cover</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></p></li>
-<li><p>Let&#39;s live preview!</p></li>
+<li>Download <a href="/lesson_files/bootstrap-start.zip">this zip folder</a> to your computer.  Unzip it, and place the files (keep them in the &quot;bootstrap-start&quot; folder) in your project portfolio folder.</li>
+<li>Open the included <code>index.html</code> in Brackets.</li>
 </ol>
 
 </div>
