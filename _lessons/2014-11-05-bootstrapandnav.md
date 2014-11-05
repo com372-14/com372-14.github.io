@@ -5,7 +5,7 @@ lesson_num: '26'
 week_num: 11
 class_date: November 5, 2014
 lead: 
-dontlink: true
+dontlink: false
 ---
 
 ## Due for this Class
