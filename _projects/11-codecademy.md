@@ -40,8 +40,8 @@ Throughout the course, you will work through the **Web Fundamentals** Track on C
 
 ### CSS Element Positioning
 
-*   [CSS Positioning](http://www.codecademy.com/courses/web-beginner-en-6merh)
-*   [Project: Build a Resume](http://www.codecademy.com/courses/web-beginner-en-9x6JW-WnAFv)
+*   [CSS Positioning](http://www.codecademy.com/courses/web-beginner-en-6merh) (Due Monday, November 17, 2014)
+*   [Project: Build a Resume](http://www.codecademy.com/courses/web-beginner-en-9x6JW-WnAFv) (Due Monday, November 17, 2014)
 
 ## Submission
 
