@@ -39,7 +39,7 @@ Specifically, your task: Develop prototypes for at least four pages of your pers
     }
     ```
 
-Link this file to your main project portfolio page, and commit / sync your changes to GitHub.
+Link this file to your main project portfolio page, and commit / sync your changes to GitHub.  **Don't forget to validate!**
 
 ## Need inspiration?
 
