@@ -7,6 +7,7 @@ slug: projects
 <h2 class="section-title">Building Blocks of the Web</h2>
 
 <ul class="posts">
+  <li><a href="/lesson_files/final-project-info.pdf">Final Project</a></li>
   {% for project in site.projects %}
     <li>
     <h3><a href="{{ project.url }}">
